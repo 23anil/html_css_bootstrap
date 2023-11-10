@@ -1,0 +1,127 @@
+.row-01 {
+    height: 35px;
+    width: 90px;
+    margin:120px 0px 0px 160px;
+}
+
+.logo {
+    height: 35px;
+    width: 70px;
+    font-size: 18px;
+    font-weight: 650;
+    margin-top: 6px;
+}
+
+.navbar-hover:hover {
+
+    color: black;
+    border-bottom: 2px solid red;
+}
+
+.navbar-hover01 {
+    margin-left: 28px;  
+}
+
+.navbar-01 {
+    height: 38px;
+    width: 720px;
+    margin:-9px 0px 0px 85px;
+    font-size: 12px;
+    font-weight: 600;
+  
+}
+
+.badge-01 {
+    height: 30px;
+    width: 100px;
+    margin:4px 0px 0px 780px;
+    padding-top: 8px;
+}
+
+.row-02 {
+    margin-top: 10px;
+    height: 585px;
+    background-color: rgb(241, 252, 252);
+}
+
+.badge-02 {
+    margin-top: 18px;
+    margin-left: 600px;
+    color: rgba(141, 139, 139, 0.938);
+}
+
+.row-03 {
+    height: 548px;
+    width: 672px;
+    margin-left: 342px;
+}
+
+.card01 {
+
+    font-size: 25px;
+    margin: 15px 0px 0px -60px;
+    font-family: cursive;
+    color: rgba(104, 103, 103, 0.938);
+    ;
+}
+
+.row-04 {
+    height: 460px;
+    width: 989px;
+    background-color: rgb(241, 252, 252);
+    margin: -480px 0px 0px 164px;
+}
+
+.image01 {
+    height: 460px;
+    width: 500px;
+    margin: 0px 0px 0px -24px;
+    position: relative;
+}
+
+.descriptionbox {
+    height: 460px;
+    width: 461px;
+    margin: 0px 0px 0px 182px;
+    font-size: 14px;
+}
+
+.descriptionline01 {
+    margin: -20px 0px 0px 30px;
+}
+
+.check-icons {
+    height: 18px;
+    width: 15px;
+    margin: 0px 0px 0px 5px;
+}
+
+.descriptionline-last {
+    margin-top: 5px;
+    text-align: justify;
+}
+
+.video-tag {
+    height: 240px;
+    width: 428px;
+}
+
+.mobile-Number {
+    height: 65px;
+    width: 360px;
+    margin: -100px 0px 0px 45px;
+    position: absolute;
+    background-color: white;
+    text-align: center;
+}
+
+.phone-number-align {
+    margin: 5px 0px 0px -15px;
+    font-size: 20px;
+    color: red;
+}
+
+.table-heading {
+    margin: 5px 0px 0px 0px;
+    font-size: 20px;
+}

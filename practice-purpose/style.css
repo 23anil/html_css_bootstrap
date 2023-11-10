@@ -1,0 +1,32 @@
+.section1 
+{
+    text-align: justify;
+    width: 400px;
+    height: 350px;
+}
+
+#section1-h4
+ {
+    font-size: 24px;
+    color: blue;
+    font-weight: 600;
+}
+
+p {
+    font-size: 26px;
+    color: gray;
+    font-weight: 700;
+}
+h2,h3,h4
+{
+    font-size: 18px;
+    color: rgb(43, 107, 226);
+    font-weight: 500px;
+}
+h5:hover
+{
+    color: brown;
+}
+a:visited{
+    color: rgb(255, 196, 0);
+}

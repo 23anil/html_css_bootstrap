@@ -1,0 +1,83 @@
+body {
+  min-height: 98vh;
+  background-color: aliceblue;
+  /* background-image: url(bubbles.01.png),
+    linear-gradient(to left, steelblue, lightgrey);
+  background-repeat: repeat-y;
+  background-position: left;
+  background-size: 10%, auto; */
+  background: repeat-y right url(bubbles.01.png),
+    no-repeat linear-gradient(to left, steelblue, lightgray);
+}
+
+/* .mainDiv {
+  margin-top: 1rem;
+  padding-left: 10px;
+  border: 2px solid red;
+}
+
+.mainDiv img {
+  width: 22%;
+  height: 12%;
+} */
+
+img {
+  display: block;
+}
+
+.container {
+  background-color: rgb(250, 185, 159);
+  background-image: url(https://wallpapers.com/images/hd/map-background-527ddbha5r4am9rc.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.image-div {
+  height: 50%;
+  width: 25%;
+  margin-left: 1%;
+}
+
+.image-div img {
+  width: 100%;
+  height: 100%;
+  border: 5px double lightgrey;
+  border-radius: 50%;
+}
+.hero {
+  border-bottom: 2px solid;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+  gap: 30px;
+  background-color: rgba(0, 0, 150, 0.406);
+}
+
+figcaption {
+  position: absolute;
+  left: -10000px;
+}
+
+.h1 {
+  font-size: 500%;
+  color: whitesmoke;
+  /* background-color: rgba(4, 0, 0, 0.406);
+  padding: 10px;
+  border-radius: 10px; */
+}
+.nowrap {
+  white-space: nowrap;
+}
+
+.clip {
+  font-size: 180px;
+  padding-left: 25px;
+  text-transform: uppercase;
+  background-image: url(https://media.istockphoto.com/id/610041376/photo/beautiful-sunrise-over-the-sea.jpg?s=612x612&w=0&k=20&c=R3Tcc6HKc1ixPrBc7qXvXFCicm8jLMMlT99MfmchLNA=);
+
+  -webkit-background-clip: text;
+
+  color: rgba(0, 0, 0, 0.076);
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table-Booking-page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+        integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="table-booking-page.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row row-01">
+            <div class="col-4">
+                <h3 class="logo">Yummy<span style="color: red;">.</span></h3>
+            </div>
+            <div class="col-4">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid navbar-01">
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item ">
+                                    <a class="nav-link navbar-hover" aria-current="page" href="responsive-page.html">Home</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link navbar-hover navbar-hover01" aria-current="page" href="about-page.html">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link navbar-hover navbar-hover01" href="yummy-menu.html">Menu</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link navbar-hover navbar-hover01" href="#">Events</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link navbar-hover navbar-hover01" href="table-booking-page.html">Chefs</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link navbar-hover navbar-hover01" href="gallery.html">Gallery</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle navbar-hover navbar-hover01" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Dropdown
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link navbar-hover navbar-hover01" aria-disabled="true" href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-4">
+                <span class="badge rounded-pill text-bg-danger badge-01">Book a Table</span>
+            </div>
+        </div>
+        <div class="row row-02">
+            <div>
+                <span class="badge rounded-pill badge-02">BOOK A TABLE</span>
+            </div>
+            <div class="row row-03">
+                <div class="text-center ">
+                    <div class="card-body">
+                        <h5 class="card-title card01">BOOK <span style="color:  rgb(248, 66, 33) !important;"> YOUR
+                                STAY</span> WITH US
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-04 shadow">
+                <div class="col-4 col00">
+                    <img src="table-booking-page.jpg" alt="" class="image0-table">
+                </div>
+                <div class="col-8 col05">
+                    <div class="mb-3 form-div01 ">
+                        <input type="text" class="lable-01" id="exampleFormControlInput1" placeholder="Your Name">
+                        <input type="email" class="lable-02" id="exampleFormControlInput1" placeholder="Your Email">
+                        <input type="tel" class="lable-03" id="exampleFormControlInput1" placeholder="Your Phone">
+                        <input type="date" class="lable-04" id="exampleFormControlInput1" placeholder="Date">
+                        <input type="time" class="lable-05" id="exampleFormControlInput1" placeholder="Time">
+                        <input type="number" class="lable-06" id="exampleFormControlInput1" placeholder="# of pepole">
+                    </div>
+                    <div class="mb-3 form-div02 message-Div">
+                        <textarea class="messageinput message-Div" id="exampleFormControlTextarea1" placeholder="Message"
+                            rows="3"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" class="btn btn-danger bookbutton rounded-pill" >Book a Table</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

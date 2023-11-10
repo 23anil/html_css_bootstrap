@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+/* || RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* variables*/
+:root {
+  /*    color     */
+  --bgcolor: #475569;
+  --alt-bgcolor: #1e293b;
+  --radial-color: whitesmoke;
+  --light-color: whitesmoke;
+  --dark-color: #000;
+
+  /*    font     */
+  --fs: 1.5rem;
+  --fs-xl: 3rem;
+  --ff: "Nunito", sans-serif;
+
+  /*    general     */
+  --padding: 0.5rem;
+  --border: 2px solid var(--dark-color);
+  --shadow: 0 6px 5px -5px var(var(--dark-color));
+
+  /*   square      */
+
+  --square-bg: papayawhip;
+  --square-size: max(20vw, 150px);
+}
+/* media quaries*/
+/* @media (prefers-color-scheme: light) {
+  :root {
+    --bgcolor: #000;
+    --alt-bgcolor: #333;
+    --radial-color: rgb(217, 217, 217);
+    --light-color: rgb(217, 217, 217);
+    --square-bg: rgb(202, 174, 202);
+  }
+} */
+
+@media screen and (max-width: 644px) and (min-width: 480px) {
+  .square:nth-child(2) {
+    --square-bg: rgb(188, 206, 126);
+  }
+  .square:nth-child(5) {
+    --square-bg: rgb(188, 206, 126);
+  }
+  .square:nth-child(8) {
+    --square-bg: rgb(188, 206, 126);
+  }
+  .square:nth-child(11) {
+    --square-bg: rgb(188, 206, 126);
+  }
+}
+
+@media screen and (min-width: 645px) {
+  .square:nth-child(5) {
+    --square-bg: rgb(150, 190, 168);
+  }
+  .square:nth-child(6) {
+    --square-bg: rgb(150, 190, 168);
+  }
+  .square:nth-child(7) {
+    --square-bg: rgb(150, 190, 168);
+  }
+  .square:nth-child(8) {
+    --square-bg: rgb(150, 190, 168);
+  }
+}
+
+/* || GENERAL STYLES */
+body {
+  font: var(--fs) var(--ff);
+  min-height: 100vh;
+  background-color: var(--bgcolor);
+  background-image: radial-gradient(var(--light-color), var(--bgcolor));
+  display: flex;
+  flex-direction: column;
+}
+
+header,
+nav,
+main,
+footer {
+  display: grid;
+  place-content: center;
+  grid-template-columns: 100%;
+  text-align: center;
+}
+
+header,
+footer {
+  position: sticky;
+  background-color: var(--alt-bgcolor);
+  color: var(--radial-color);
+}
+
+header {
+  top: 0;
+}
+
+nav {
+  background-color: var(--light-color);
+  color: var(--dark-color);
+  padding: var(--padding);
+  border-bottom: var(--border);
+  box-shadow: var(--shadow);
+}
+
+main {
+  flex-grow: 1;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-flow: row wrap;
+  gap: min(4vw, 15px);
+}
+
+footer {
+  bottom: 0;
+}
+.square-highlight {
+  --square-bg: cornflowerblue; /*local variable */
+}
+
+.square {
+  background-color: var(--square-bg);
+  width: var(--square-size);
+  height: var(--square-size);
+  border: var(--border);
+  border-radius: 15px;
+  display: grid;
+  box-shadow: var(--shadow);
+
+  place-content: center;
+  font-size: var(--fs-xl);
+}
+
+.square101 {
+  color: whitesmoke;
+  --square-bg: rgb(187, 36, 36);
+}

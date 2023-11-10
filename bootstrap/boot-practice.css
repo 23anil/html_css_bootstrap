@@ -1,0 +1,35 @@
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+.accordion-button:not(.collapsed) {
+  color: white !important;
+  background-color: white !important;
+  box-shadow: none !important;
+}
+.accordion-collapse {
+  width: 500px !important;
+  background-color: aliceblue !important;
+  border: 3px solid violet;
+}
+.accordion-item {
+  border: none !important;
+}
+.extra {
+  height: 250px !important;
+  width: 500px !important;
+  background-color: aliceblue !important;
+  color: brown !important;
+  margin: 100px 0px 0px 200px !important;
+  border: 3px solid blue !important;
+  padding: 10px;
+}
+
+#extra01 {
+  height: 200px !important;
+  width: 400px !important;
+  background-color: rgb(173, 224, 173) !important;
+  color: rgb(37, 4, 251) !important;
+  margin: 100px 0px 0px 200px !important;
+  border: 3px solid rgb(15, 15, 15) !important;
+  padding: 10px;
+}

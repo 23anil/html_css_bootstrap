@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:ital,wght@0,100;1,100&display=swap");
+
+.box {
+  height: 100%;
+  width: 93%;
+  margin-left: 1.5%;
+  padding: 0% 2% 0% 2%;
+  background-color: papayawhip;
+}
+
+h1,
+h2 {
+  color: lightcoral;
+}
+
+.paragraph-01 {
+  color: rgb(250, 159, 126);
+  text-transform: none;
+}
+
+.paragraph-01 {
+  color: rgba(255, 255, 255, 0.446);
+}
+#Artical-01 {
+  color: rgba(202, 202, 129, 5);
+}
+
+.paragraph-03::first-line {
+  color: red;
+}
+
+p {
+  color: #5974c5;
+}
+
+body {
+  font-size: 20px;
+}
+
+.box-model {
+  border: 2px solid black;
+  width: 30%;
+  font-size: 1.5rem;
+  padding: 1em;
+  margin-left: 15px;
+  color: #5974c5;
+  outline: 2px dotted brown;
+  outline-offset: 10px;
+}
+
+.typography {
+  width: 100%;
+  height: 20vh;
+  padding: 5px;
+  font-family: "Dancing Script", cursive;
+  border: 2px solid black;
+}
+
+.css-links {
+  height: 35vh;
+  width: 100%;
+  padding-left: 20px;
+  border: 2px solid black;
+}
+
+.css-links :is(a:hover, a:focus) {
+  color: red;
+}
+a::marker {
+  color: yellowgreen;
+}
+a:active {
+  color: brown;
+}
+
+.css-links a {
+  color: blue;
+  text-decoration: none;
+}
+a:visited {
+  color: purple;
+}
+
+.list-styles {
+  height: 100%;
+  width: 100%;
+  padding-left: 80px;
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+
+ol {
+  list-style-type: decimal;
+  /* list-style-image: url(star-solid.svg); */
+  color: rgb(69, 3, 249);
+}
+ul {
+  list-style-type: upper-roman;
+  /* text-align: center; 
+  list-style: square url(star-regular.svg) in; */
+}
+
+.list-styles li:nth-child(odd) {
+  color: red;
+}
+/* 
+ul li::marker {
+  color: fuchsia;
+  content: "only $ 50 >> ";
+} */
+
+.box-sizeing {
+  padding: 0px;
+  margin: 0px;
+}
+.box-sizeing li {
+  box-sizing: border-box;
+}
+
+.display-propreties {
+  background-color: black;
+  width: 50%;
+}
+/* .display-propreties-paragraph {
+  background-color: lightgray;
+  margin: 100px 50px;
+}
+
+.opposite {
+  display: inline-block;
+  background-color: #333;
+  color: white;
+  margin-top: 100px;
+  height: 200px;
+  padding: 4rem;
+}  */
+
+.navbar {
+  margin: 0%;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-align: right;
+}
+
+.nav-list {
+  display: inline-block;
+  margin-inline: 0.5rem;
+}
+
+.nav-list a {
+  /* display: none; */
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.nav-list a:hover,
+.nav-list a:focus {
+  text-decoration: underline;
+}
+
+.flex-property {
+  width: 95%;
+  height: 100%;
+  margin-left: 1.5%;
+}
+
+.flex-block {
+  height: 30vh;
+  width: 20vw;
+  background-color: #333;
+  color: whitesmoke;
+  padding: 1rem;
+}
+.flex-left {
+  float: left;
+  margin-right: 1rem;
+  overflow: auto;
+}
+.flex-right {
+  float: right;
+  margin-left: 1rem;
+}
+
+/* .clear {
+  clear: both;
+} */
+
+section {
+  background-color: bisque;
+  border: 1px solid #333;
+  padding: 1rem;
+  /* overflow: auto; */
+  display: flow-root;
+}
+
+.columns-css {
+  /* column-count: 4;
+  column-width: 300px; */
+  columns: 4 250px;
+  column-rule: 2px solid #333;
+  column-gap: 3rem;
+}
+
+.columns-css p {
+  margin-top: 0%;
+}
+.columns-css h3 {
+  margin-top: 0%;
+  background-color: #333;
+  color: whitesmoke;
+  padding: 1rem;
+  break-inside: avoid;
+}
+
+.quote {
+  text-align: center;
+  font-size: 3rem;
+  color: #333;
+  column-span: all;
+}
+
+.nowrap {
+  white-space: nowrap;
+}

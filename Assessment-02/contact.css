@@ -1,0 +1,212 @@
+.row01 {
+    height: 455px;
+    margin: 120px 0px 0px 0px;
+}
+
+.Address {
+    height: 65px;
+    width: 400px;
+    background-color: rgb(250, 248, 248);
+    margin: 10px 0px 0px 245px;
+}
+
+.email {
+    height: 65px;
+    width: 400px;
+    background-color: rgb(250, 248, 248);
+    margin: 10px 0px 0px 15px;
+}
+
+.Call {
+    height: 65px;
+    width: 400px;
+    background-color: rgb(250, 248, 248);
+    margin: 14px 0px 0px 245px;
+}
+
+.timeings {
+    height: 65px;
+    width: 400px;
+    background-color: rgb(250, 248, 248);
+    margin: 14px 0px 0px 15px;
+}
+
+.formdiv {
+    height: 280px;
+    width: 815px;
+    background-color: rgb(238, 245, 250);
+    margin: 10px 0px 0px 245px;
+}
+
+.heading {
+    font-size: 15px;
+    margin: -38px 0px 0px 51px;
+}
+
+.subheading {
+    font-size: 11px;
+    margin: 0px 0px 0px 51px;
+}
+
+.iconbackground {
+    height: 43px;
+    width: 45px;
+    margin: 13px 0px 0px 0px;
+    background-color: red;
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+.location-icon {
+    font-size: 22px;
+    padding: 8px 0px 0px 12px;
+}
+
+.location-icon01 {
+    font-size: 22px;
+    padding: 9px 0px 0px 10px;
+}
+
+.location-icon02 {
+    font-size: 22px;
+    padding: 9px 0px 0px 10px;
+}
+
+.location-icon03 {
+    font-size: 22px;
+    padding: 9px 0px 0px 10px;
+}
+
+.lable-01 {
+    height: 40px;
+    width: 390px;
+    margin-top: 10px;
+}
+
+.lable-02 {
+    height: 40px;
+    width: 390px;
+    margin: -40px 0px 0px 400px;
+}
+
+.lable-03 {
+    height: 40px;
+    margin: 8px 0px 0px 0px;
+}
+
+.messagebox {
+    height: 85px;
+    width: 788px;
+}
+
+.button01 {
+    margin-left: 340px;
+    border-radius: 20px;
+}
+
+.row02 {
+    height: 140px;
+    background-color: black;
+    margin: 30px 0px 0px 0px;
+
+}
+
+.row03 {
+    height: 80px;
+    width: 815px;
+    margin: 1px 0px 0px 234px;
+    border-bottom: 0.6px solid rgb(226, 222, 223);
+
+}
+
+.footer01 {
+    width: 200px;
+    height: 100%;
+    color: white;
+    margin: 0px 0px 0px -12px;
+}
+
+.footer02 {
+    width: 200px;
+    height: 100%;
+    color: white;
+    margin: -79px 0px 0px 193px;
+}
+
+.footer03 {
+    width: 200px;
+    height: 100%;
+    color: white;
+    margin: -79px 0px 0px 398px;
+}
+
+.footer04 {
+    width: 200px;
+    height: 100%;
+    color: white;
+    margin: -79px 0px 0px 603px;
+}
+
+.footer-heading {
+    font-size: 13px;
+    padding: 15px 0px 0px 39px;
+    margin-top: -41px;
+}
+
+.footer-heading01 {
+    font-size: 13px;
+    padding: 19px 0px 0px 39px;
+    margin-top: -41px;
+}
+
+.footer-subheading {
+    font-size: 10px;
+    padding: 0px 0px 0px 39px;
+    margin-top: -4px;
+}
+
+.footer-icons {
+    font-size: 20px;
+    padding: 22px 0px 0px 10px;
+}
+
+.follow-icons-backgron01 {
+    height: 25px;
+    width: 28px;
+    border: 1px solid white;
+    margin-left: 38px;
+    border-radius: 50%;
+}
+.follow-icons-backgron02 {
+    height: 25px;
+    width: 28px;
+    border: 1px solid white;
+    margin:-25px 0px 0px 70px;
+    border-radius: 50%;
+}
+.follow-icons-backgron03 {
+    height: 25px;
+    width: 28px;
+    border: 1px solid white;
+    margin:-25px 0px 0px 102px;
+    border-radius: 50%;
+}
+.follow-icons-backgron04 {
+    height: 25px;
+    width: 28px;
+    border: 1px solid white;
+    margin:-25px 0px 0px 134px;
+    border-radius: 50%;
+}
+.follow-icons {
+    padding: 4px 0px 0px 6px;
+    font-size: 14px;
+}
+.footer-heading-last{
+    height: 40px;
+    width: 240px;
+    margin: 5px 0px 0px 525px;
+    color: white;
+    font-size: 13px;
+
+}

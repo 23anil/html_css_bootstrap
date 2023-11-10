@@ -1,0 +1,155 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@100&display=swap"); */
+
+span {
+  /* background-color: rgb(211, 127, 211); */
+  height: 300px;
+  width: 300px;
+  float: left;
+  shape-outside: circle();
+  border-radius: 50%;
+  background-image: linear-gradient(
+    red,
+    rgb(172, 189, 98),
+    gray,
+    rgb(110, 110, 201)
+  );
+}
+
+div img {
+  border-radius: 50%;
+}
+
+/* filter functions*/
+.filter {
+  height: 300px;
+  width: 300px;
+  background-image: url(thomas-marquize-LYWZFppi-qA-unsplash.jpg);
+  background-size: cover;
+  margin-left: 5%;
+  /* box-shadow: 10px 10px 10px yellow; */
+  /* filter:brightness(100%); */
+  /* filter: blur(10px); */
+  /* filter: brightness(1); */
+  /* filter: contrast(0.4); */
+  /* filter: drop-shadow(-10px -10px 10px yellow);  */
+  /* filter: grayscale(-200%); */
+  /* filter: opacity(0.5); */
+  /* filter: hue-rotate(260); */
+  /* filter: invert(2); */
+  /* filter: saturate(2); */
+  filter: sepia(100%);
+  /* opacity: 0.8; */
+}
+
+img {
+  margin: 5% 0% 0% 5%;
+  /* filter: drop-shadow(10px 10px 10px blue); */
+}
+
+/*shape functions*/
+
+.shape {
+  height: 300px;
+  width: calc(100px * 3);
+  background-color: burlywood;
+  background-image: image("thomas-marquize-LYWZFppi-qA-unsplash");
+  margin-left: 5%;
+  float: left;
+  z-index: -2;
+  /* clip-path: inset(5% 10% 8% 20% round 10% 20% 30% 40%); */
+  /* shape-outside: inset(20%); */
+  /* offset: inset(5% 10% 0% 50%); */
+  clip-path: circle(100px at top);
+  shape-outside: circle();
+  offset: circle(20px 30px);
+  /* border-radius: 50%; */
+  /* clip-path: ellipse(100px 150px); */
+  /* shape-outside: ellipse(); */
+  /* offset: ellipse(10px 30px); */
+  /* shape-outside: polygon(); */
+  clip-path: polygon(0% 20% 60% 20% 60% 0% 100% 50% 60% 100% 60% 80% 0% 80%);
+}
+
+h2 {
+  font-size: calc(10px * 5);
+}
+
+.inset {
+  display: inline-block;
+}
+
+.inset p {
+  z-index: 2;
+}
+
+/* math functions*/
+h3 {
+  font-size: round(10px * 3.25);
+  /* font-variant-alternates: swash(fancy); */
+  font-family: "Nabla";
+}
+
+.shape-01 {
+  height: 200px;
+  width: calc(100px * 2);
+  background-color: rgb(135, 222, 222);
+  /* background-image: u; */
+  margin-left: 5%;
+  clip-path: polygon(
+    0% 20%,
+    60% 20%,
+    60% 0%,
+    100% 50%,
+    60% 100%,
+    60% 80%,
+    0% 80%
+  );
+}
+
+/* counter */
+.counter-fc {
+  counter-reset: count;
+ 
+}
+.counter-fc h1 {
+  counter-reset: sub-count-01;
+}
+.counter-fc p {
+  counter-reset: sub-count-02;
+}
+
+.counter-fc h1::before {
+  counter-increment: count;
+  content:/* "Section "*/ counter(count) ". ";
+}
+
+.counter-fc p::before {
+  margin-left: 5%;
+  counter-increment: sub-count-01;
+  content: counter(count) ". " counter(sub-count-01, upper-alpha) ". ";
+}
+
+.counter-fc h3::before {
+  margin-left: 7%;
+  counter-increment: sub-count-02;
+  content: counter(sub-count-01) "." counter(sub-count-01, upper-alpha) ". "
+    counter(sub-count-02) ". ";
+}
+
+/* counters */
+
+.counter-li ol {
+  counter-reset: index;
+  list-style: none;
+}
+
+.counter-li li::before {
+  counter-increment: index;
+  content: counters(index, ".") " ";
+}
+
+/* .math {
+  height: calc(round(100px, 300px));
+  width: round(100px, 300px);
+  background-color: aqua;
+} */

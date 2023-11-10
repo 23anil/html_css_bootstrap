@@ -1,0 +1,25 @@
+.flex-container {
+  display: grid;
+  grid-template-columns:
+    auto auto auto auto
+    auto auto auto;
+    flex-wrap: wrap;
+  height: 30vh;
+  background-color: DodgerBlue;
+  flex-wrap: wrap;
+  gap: 10px 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container > div {
+  width: 12vh;
+  height: 8vh;
+  background-color: #f1f1f1;
+
+  padding: 20px;
+  font-size: 30px;
+}
+/* .flex-container div:nth-child(3) {
+  flex: 0 0 50%;
+} */
