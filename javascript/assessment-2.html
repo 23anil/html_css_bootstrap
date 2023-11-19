@@ -22,7 +22,6 @@
         console.log("Not prime number");
       }
 
-     
       // WAP to find reverse string
       console.log("******************");
       console.log(" 02)WAP to find reverse string");
@@ -50,7 +49,7 @@
           secondLarge = array[i];
         }
       }
-console.log(array);
+      console.log(array);
       console.log("secondLarge : " + secondLarge);
 
       // WAP to find Bubble Sort
@@ -88,6 +87,7 @@ console.log(array);
       console.log(
         " 05)create 5 array without using new keyword with all primitive types and object and loop for loop using"
       );
+      console.log("*) Primitive Types");
 
       var person = [
         "Ravi",
@@ -117,7 +117,7 @@ console.log(array);
         console.log(employee[i]);
       }
       console.log("***************");
-      var employee = [
+      var student = [
         "Raghu",
         21,
         false,
@@ -127,15 +127,235 @@ console.log(array);
         Symbol(741),
       ];
 
-      for (let i = 0; i < employee.length; i++) {
-        console.log(employee[i]);
+      for (let i = 0; i < student.length; i++) {
+        console.log(student[i]);
+      }
+      console.log("**************************");
+      console.log("*) object");
+
+      var person01 = [
+        {
+          name: "Paramesh",
+          age: 25,
+          married: undefined,
+          place: null,
+          Adharno: BigInt(987654321145),
+        },
+        {
+          name: "Punith",
+          age: 29,
+          married: undefined,
+          place: null,
+          Adharno: BigInt(987654321),
+        },
+        {
+          name: "Gowda",
+          age: 28,
+          married: undefined,
+          place: null,
+          Adharno: BigInt(9887894566254),
+        },
+      ];
+
+      for (var i = 0; i < person01.length; i++) {
+        console.log(person01[i]);
       }
 
-       //create 5 array with using new keyword with all primitive types and object and loop for loop using
-       console.log("*******************");
+      console.log("**********************");
+      var employee01 = [
+        {
+          name: "Naveen",
+          age: 25,
+          married: undefined,
+          place: null,
+          Adharno: BigInt(987654321145),
+        },
+        {
+          name: "Kumar",
+          age: 23,
+          married: undefined,
+          place: null,
+          Adharno: BigInt(987654321),
+        },
+        {
+          name: "Hanuma",
+          age: 29,
+          married: undefined,
+          place: null,
+          Adharno: BigInt(9887894566254),
+        },
+      ];
+
+      for (var i = 0; i < employee01.length; i++) {
+        console.log(employee01[i]);
+      }
+
+      console.log("**********************");
+      var student01 = [
+        {
+          name: "Ravi",
+          age: 25,
+          married: undefined,
+          place: null,
+          Adharno: BigInt(987654321145),
+        },
+        {
+          name: "Varun",
+          age: 29,
+          married: undefined,
+          place: null,
+          Adharno: BigInt(987654321),
+        },
+        {
+          name: "Manu",
+          age: 23,
+          married: undefined,
+          place: null,
+          Adharno: BigInt(9887894566254),
+        },
+      ];
+
+      for (var i = 0; i < student01.length; i++) {
+        console.log(student01[i]);
+      }
+
+      //create 5 array with using new keyword with all primitive types and object and loop for loop using
+      console.log("*******************");
       console.log(
         " 06)create 5 array with using new keyword with all primitive types and object and loop for loop using"
       );
+      console.log("*) primitive types");
+      var mobile = new Array(
+        "MI",
+        17000,
+        true,
+        undefined,
+        null,
+        BigInt(10111213141516171819),
+        Symbol(321)
+      );
+
+      for (var i = 0; i < mobile.length; i++) {
+        console.log(mobile[i]);
+      }
+
+      console.log("********************");
+      var Laptop = new Array(
+        "Lenovo",
+        25000,
+        true,
+        undefined,
+        null,
+        BigInt(10111213141516171819),
+        Symbol(321)
+      );
+
+      for (var i = 0; i < Laptop.length; i++) {
+        console.log(Laptop[i]);
+      }
+
+      console.log("********************");
+      var Fan = new Array(
+        "Usha",
+        2000,
+        true,
+        undefined,
+        null,
+        BigInt(10111213141516171819),
+        Symbol(321)
+      );
+
+      for (var i = 0; i < Fan.length; i++) {
+        console.log(Fan[i]);
+      }
+
+      console.log("**********************");
+      console.log("object");
+
+      var bike = new Array(
+        {
+          name: "Royal Enfiled",
+          Price: 150000,
+          Bicke_No: Symbol("KA - 17 - EF - 8998"),
+          Model: undefined,
+          Bicke_Series: BigInt(10111213141516171819),
+        },
+        {
+          name: "Pulsar-150",
+          Price: 100000,
+          Bicke_No: Symbol("KA - 17 - EF - 1234"),
+          Model: undefined,
+          Bicke_Series: BigInt(10111213141516171819),
+        },
+        {
+          name: "Hero-Honda-cd-100",
+          Price: 95000,
+          Bicke_No: Symbol("KA - 17 - EF - 4321"),
+          Model: undefined,
+          Bicke_Series: BigInt(10111213141516171819),
+        }
+      );
+      for (var i = 0; i < bike.length; i++) {
+        console.log(bike[i]);
+      }
+
+      console.log("******************");
+
+      var courses = new Array(
+        {
+          name: "BE",
+          Price: 100000,
+          Duration: Symbol("4year"),
+          Model: undefined,
+          Collages: BigInt(10111213141516171819),
+        },
+        {
+          name: "MBBS",
+          Price: 500000,
+          Duration: Symbol("5year"),
+          Model: undefined,
+          Collages: BigInt(10111213141516171819),
+        },
+        {
+          name: "LAW",
+          Price: 150000,
+          Duration: Symbol("4year"),
+          Model: undefined,
+          Collages: BigInt(10111213141516171819),
+        }
+      );
+      for (var i = 0; i < courses.length; i++) {
+        console.log(courses[i]);
+      }
+
+      console.log("******************");
+
+      var City = new Array(
+        {
+          name: "Bangalore",
+          Population: 1000000,
+          Duration: Symbol("4year"),
+          Development: undefined,
+          Distance: null,
+        },
+        {
+          name: "Mangalore",
+          Population: 500000,
+          Duration: Symbol("5year"),
+          Development: undefined,
+          Distance: null,
+        },
+        {
+          name: "Davangere",
+          Population: 150000,
+          Duration: Symbol("4year"),
+          Development: undefined,
+          Distance: null,
+        }
+      );
+      for (var i = 0; i < City.length; i++) {
+        console.log(City[i]);
+      }
     </script>
   </body>
 </html>
