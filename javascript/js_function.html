@@ -13,7 +13,6 @@
       }
       console.log(add(10, 30));
 
-      
       //anonymous function
       var subs = function (a, b) {
         console.log(a - b);
@@ -78,6 +77,36 @@
         multi();
       }
       square01(5);
+
+      //call back function
+      // example-01
+      function test(callback) {
+        console.log("Test Executed");
+        callback();
+      }
+      function Sample() {
+        console.log("Sample Executed");
+      }
+      function Sample01() {
+        console.log("Sample01 Executed");
+      }
+      test(Sample);
+      test(Sample01);
+
+      // example-02
+      function login(name) {
+        alert(`GoodMorning,    ${name}`);
+      }
+      function logout(name) {
+        alert(`GoodEvening,  ${name}`);
+      }
+
+      function entry(callback) {
+        var name = prompt(`please enter your name`);
+        callback(name);
+      }
+      entry(login);
+      entry(logout);
     </script>
   </body>
 </html>
