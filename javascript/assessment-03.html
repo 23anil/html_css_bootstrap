@@ -349,7 +349,7 @@
         console.log(str1);
       })("Good Day");
 
-      //  4) wap to reverse string  using four ways of functions
+      //  4) wap to Second largest  using four ways of functions
       console.log("4) wap to Second largest  using four ways of functions");
 
       console.log("*) Named function");
@@ -414,8 +414,8 @@
 
       console.log("*) IIFE function");
 
-      var ay = [10, 2, 3, 45, 69, 96, 98];
-      (function (array) {
+      var array = [10, 2, 3, 45, 69, 96, 98];
+      (function () {
         var firstLarge = array[0];
         var secondLarge = array[0];
         for (var i = 0; i < array.length; i++) {
@@ -428,7 +428,7 @@
           }
         }
         console.log("secondLarge : " + secondLarge);
-      })(ay);
+      })(array);
 
       //  5) wap to factorial of number using four ways of functions
       console.log(
