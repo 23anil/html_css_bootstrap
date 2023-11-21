@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>practice-javascript</title>
+  </head>
+  <body>
+    <script>
+      console.log("*) Named function");
+
+      function print(name) {
+        console.log("Name", name);
+      }
+      print("Raju");
+      print("Ravi");
+
+      console.log("*) Anonymous function");
+
+      var print01 = function (name, age) {
+        console.log(name + age);
+      };
+      print01("Raghu", 25);
+      print01("Kumar", 22);
+
+      console.log("*) Arrow function");
+
+      var print02 = (name, age, gender) => {
+        console.log(name + age + gender);
+      };
+      print02("puneeth", 25, undefined);
+
+      console.log("*) IIFE function");
+
+      (function print03(name, age, gender, phno) {
+        console.log(name + age + gender + phno);
+      })("Halesh", 25, undefined, BigInt(8747036362));
+
+      console.log("*) Nested function");
+      console.log("Example-01");
+      function run(name, age, gender) {
+        console.log("Name", name);
+        return function () {
+          console.log("Age", age);
+          return function () {
+            console.log("gender", gender);
+          };
+        };
+      }
+      run("Naveen", 25, undefined)()();
+
+      console.log("Example-01");
+      function run(name) {
+        console.log("Name", name);
+        function run01(age) {
+          console.log("Age", age);
+          function run02(gender) {
+            console.log("gender", gender);
+          }
+          run02(undefined);
+        }
+        run01(null);
+      }
+      run("Krishna");
+    </script>
+  </body>
+</html>

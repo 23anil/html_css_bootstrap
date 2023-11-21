@@ -37,9 +37,9 @@
       // WAP to find Second Largest
       console.log("******************");
       console.log(" 03)WAP to find Second Largest");
-      var array = [10, 2, 3, 45, 16, 55];
-      var firstLarge = array[0];
-      var secondLarge = array[0];
+      var array = [55, 10, 2, 3, 45, 16];
+      var firstLarge = 0;
+      var secondLarge = 0;
       for (var i = 0; i < array.length; i++) {
         if (array[i] > firstLarge) {
           secondLarge = firstLarge;
@@ -55,8 +55,10 @@
       // WAP to find Bubble Sort
       console.log("******************");
       console.log(" 04)WAP to find Bubble Sort");
+      
+      var array01 = [5, 4, 3, 2, 1];
+
       // Normal Sort
-      var array01 = [1, 2, 8, 5, 6, 7, 9, 10, 4, 3];
 
       // for (var i = 0; i < array01.length; i++) {
       //   var temp;
@@ -355,6 +357,45 @@
       );
       for (var i = 0; i < City.length; i++) {
         console.log(City[i]);
+      }
+
+      console.log("**************************************");
+      console.log(
+        "07) calculate BMI result print using ternary operator and if else statement"
+      );
+      console.log("*) Ternary operator");
+      var heigth = 1.2;
+      var weight = 40;
+
+      var bmi = weight / Math.pow(heigth, 2);
+
+      bmi < 18.5
+        ? console.log("underweight")
+        : bmi >= 18.5 && bmi <= 24.9
+        ? console.log("normal")
+        : bmi >= 25 && bmi <= 29.9
+        ? console.log("overwight")
+        : bmi >= 30 && bmi <= 34.9
+        ? console.log("obese")
+        : console.log("extremely obese");
+
+      console.log("***************************");
+      console.log("*) if else statement");
+      var heigth = 1.2;
+      var weight = 40;
+
+      var bmi = weight / Math.pow(heigth, 2);
+
+      if (bmi < 18.5) {
+        console.log("underweight");
+      } else if (bmi >= 18.5 && bmi <= 24.9) {
+        console.log("normal");
+      } else if (bmi >= 25 && bmi <= 29.9) {
+        console.log("overwight");
+      } else if (bmi >= 30 && bmi <= 34.9) {
+        console.log("obese");
+      } else {
+        console.log("extremely obese");
       }
     </script>
   </body>
