@@ -529,12 +529,12 @@ section {
   top: 0px; */
   margin-bottom: 30px;
 }
-/* .portfolio .portfolio-wrap {
+ .portfolio .portfolio-wrap {
   overflow: hidden;
   position: relative;
   z-index: 1;
   transition: 0.3s;
-} */
+} 
 
 /*------ main section - Services section ------*/
 .services-card-icons {
