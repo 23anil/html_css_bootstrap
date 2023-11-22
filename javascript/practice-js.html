@@ -7,6 +7,7 @@
   </head>
   <body>
     <script>
+      //  Named function
       console.log("*) Named function");
 
       function print(name) {
@@ -15,6 +16,7 @@
       print("Raju");
       print("Ravi");
 
+      //  Anonymous function
       console.log("*) Anonymous function");
 
       var print01 = function (name, age) {
@@ -23,6 +25,7 @@
       print01("Raghu", 25);
       print01("Kumar", 22);
 
+      //  Arrow function
       console.log("*) Arrow function");
 
       var print02 = (name, age, gender) => {
@@ -30,6 +33,7 @@
       };
       print02("puneeth", 25, undefined);
 
+      // IIFE function
       console.log("*) IIFE function");
 
       (function print03(name, age, gender, phno) {
@@ -37,6 +41,7 @@
       })("Halesh", 25, undefined, BigInt(8747036362));
 
       console.log("*) Nested function");
+      // Nested function
       console.log("Example-01");
       function run(name, age, gender) {
         console.log("Name", name);
@@ -49,19 +54,37 @@
       }
       run("Naveen", 25, undefined)()();
 
-      console.log("Example-01");
-      function run(name) {
-        console.log("Name", name);
+      console.log("Example-02");
+      function sample03(name) {
+        console.log("Name : ", name);
         function run01(age) {
-          console.log("Age", age);
+          console.log("Age : ", age);
           function run02(gender) {
-            console.log("gender", gender);
+            console.log("gender : ", gender);
           }
-          run02(undefined);
+          run02("male");
         }
-        run01(null);
+        run01(25);
       }
-      run("Krishna");
+      sample03("Krishna");
+
+      // callback function
+      console.log("*) callback function");
+
+      var sample = function () {
+        console.log("Wel Come");
+      };
+
+      var test = function () {
+        console.log("Good Morning");
+      };
+      function executed(jack) {
+        // console.log("function executed");
+        jack();
+      }
+      executed(test);
+
+      executed(sample);
     </script>
   </body>
 </html>
