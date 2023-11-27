@@ -86,114 +86,128 @@
 
       // executed(sample);
 
-      var nums = [10, 20, 30, "Anil", 40, 80, 90];
-      var nums01 = ["true", "false"];
-      var nums02 = ["kumar", "Raju"];
+      // var nums = [10, 20, 30, "Anil", 40, 80, 90];
+      // var nums01 = ["true", "false"];
+      // var nums02 = ["kumar", "Raju"];
 
-      console.log("====================================");
-      console.log(nums);
-      console.log("====================================");
-      console.log("length");
-      console.log(nums.length);
-
-      console.log("====================================");
-      console.log("toString()");
-      console.log(nums.toString());
-
-      console.log("====================================");
-      console.log("unshift()");
-      console.log(nums.unshift(0o5));
-      console.log(nums);
-
-      console.log("====================================");
-      console.log("shift()");
-      console.log(nums.shift());
-      console.log(nums);
-
-      console.log("====================================");
-      console.log("push()");
-      console.log(nums.push(100));
-      console.log(nums);
-
-      console.log("====================================");
-      console.log("pop()");
-      console.log(nums.pop(100));
-      console.log(nums);
-
-      console.log("====================================");
-      console.log("join()");
-      var join = nums.join("");
-      console.log(nums.join("*"));
+      // console.log("====================================");
       // console.log(nums);
-      console.log(join);
+      // console.log("====================================");
+      // console.log("length");
+      // console.log(nums.length);
 
-      console.log("====================================");
-      console.log("delete()");
-      console.log(delete nums[2]);
-      console.log(nums);
+      // console.log("====================================");
+      // console.log("toString()");
+      // console.log(nums.toString());
 
-      console.log("====================================");
-      console.log("concat()");
-      var concat = nums.concat(nums01, nums02);
-      console.log(nums.concat(nums01, nums02));
-      console.log(concat);
+      // console.log("====================================");
+      // console.log("unshift()");
+      // console.log(nums.unshift(0o5));
+      // console.log(nums);
 
-      console.log("====================================");
-      console.log("slice()");
-      var slice = nums.slice(1, -3);
-      console.log(slice);
-      console.log(nums);
+      // console.log("====================================");
+      // console.log("shift()");
+      // console.log(nums.shift());
+      // console.log(nums);
 
-      console.log("====================================");
-      console.log("splice()");
-      var splice = nums.splice(1, 3);
-      console.log(splice);
-      console.log(nums.flat(Infinity));
+      // console.log("====================================");
+      // console.log("push()");
+      // console.log(nums.push(100));
+      // console.log(nums);
 
-      console.log("====================================");
-      console.log("isArray()");
-      console.log(Array.isArray(nums));
+      // console.log("====================================");
+      // console.log("pop()");
+      // console.log(nums.pop(100));
+      // console.log(nums);
 
-      console.log("====================================");
-      console.log("isArray()");
-      console.log(nums);
-      console.log(nums.includes(50));
+      // console.log("====================================");
+      // console.log("join()");
+      // var join = nums.join("");
+      // console.log(nums.join("*"));
+      // console.log(nums);
+      // console.log(join);
 
-      console.log("====================================");
-      console.log("find()");
-      var find = nums.find((value) => {
-        return value > 40;
-      });
-      console.log(find);
+      // console.log("====================================");
+      // console.log("delete()");
+      // console.log(delete nums[2]);
+      // console.log(nums);
 
-      console.log("====================================");
-      console.log("find()");
-      var find = nums.findIndex((value) => {
-        return value > 40;
-      });
-      console.log(find);
+      // console.log("====================================");
+      // console.log("concat()");
+      // var concat = nums.concat(nums01, nums02);
+      // console.log(nums.concat(nums01, nums02));
+      // console.log(concat);
 
-      console.log("====================================");
-      console.log("foreach()");
-      nums.forEach((values) => {
-        console.log(values);
-      });
+      // console.log("====================================");
+      // console.log("slice()");
+      // var slice = nums.slice(1, -3);
+      // console.log(slice);
+      // console.log(nums);
 
-      console.log("====================================");
-      console.log("map()");
-      nums.map((values) => {
-        console.log(values);
-      });
-      var values = 10;
-      console.log("====================================");
-      console.log("filter()");
-      var filter = nums.filter((value) => {
-        return value > 40;
-      });
-      console.log(filter);
-      console.log("***********************");
-      nums.filter((value) => {
-        console.log(value > 40);
+      // console.log("====================================");
+      // console.log("splice()");
+      // var splice = nums.splice(1, 3);
+      // console.log(splice);
+      // console.log(nums.flat(Infinity));
+
+      // console.log("====================================");
+      // console.log("isArray()");
+      // console.log(Array.isArray(nums));
+
+      // console.log("====================================");
+      // console.log("isArray()");
+      // console.log(nums);
+      // console.log(nums.includes(50));
+
+      // console.log("====================================");
+      // console.log("find()");
+      // var find = nums.find((value) => {
+      //   return value > 40;
+      // });
+      // console.log(find);
+
+      // console.log("====================================");
+      // console.log("find()");
+      // var find = nums.findIndex((value) => {
+      //   return value > 40;
+      // });
+      // console.log(find);
+
+      // console.log("====================================");
+      // console.log("foreach()");
+      // nums.forEach((values) => {
+      //   console.log(values);
+      // });
+
+      // console.log("====================================");
+      // console.log("map()");
+      // nums.map((values) => {
+      //   console.log(values);
+      // });
+      // var values = 10;
+      // console.log("====================================");
+      // console.log("filter()");
+      // var filter = nums.filter((value) => {
+      //   return value > 40;
+      // });
+      // console.log(filter);
+      // console.log("***********************");
+      // nums.filter((value) => {
+      //   console.log(value > 40);
+      // });
+
+      let preson = {
+        name: "anil",
+        age: 23,
+        phno: 8747036362,
+      };
+
+      // var map = preson.map((value, index) => {
+      //   console.log("value =" + value + "  " + "index =" + index);
+      // });
+
+      var foreach = preson.foreach((value, index) => {
+        console.log("value =" + value + "  " + "index =" + index);
       });
     </script>
   </body>

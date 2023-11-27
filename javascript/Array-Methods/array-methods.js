@@ -306,11 +306,11 @@ var forEach = nums.forEach((value, index) =>
 console.log(forEach);
 
 console.log("******===========********");
+console.log("map");
+var map = nums.map((value, index) => {
+  console.log("value =" + value + "  " + "index =" + index);
+});
 
-console.log("map()");
-var map = fruits.map((value, index) =>
-  console.log("value =" + value + "  " + "index =" + index)
-);
 //   returns new array
 console.log(map);
 

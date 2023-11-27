@@ -108,7 +108,7 @@ company = {
   adress: ["pincode:577002", "city:Bangalogre"],
 };
 
-let friutes = ["apple", "orange", "banana", "Kiwi"];
+let friutes = ["apple","orange" , "banana", "Kiwi"];
 
 let string = "GoodMorning";
 
@@ -155,8 +155,11 @@ let properties = {
   name: {
     value: "raju",
   },
+  age:{
+    value:23
+  }
 };
-person01.city="bangalore";
+
 
 let newobj = Object.create(person01, properties);
 
