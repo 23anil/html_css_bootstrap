@@ -24,3 +24,11 @@ console.log("indexOf   :", str2.indexOf("l"));
 console.log("charCodeAt :", str.charCodeAt(0));
 console.log("split :", str.split("").reverse().join(""));
 console.log(str.toUpperCase());
+
+console.log("*******************************");
+
+let anil = str.split("");
+console.log(anil);
+anil[1] = 0;
+console.log(anil[1]);
+console.log(anil);

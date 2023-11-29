@@ -45,8 +45,8 @@ CWDA(ty01);
 
 console.log("2) Find Duplicates String");
 function CDS(duplicateString) {
-let ds=duplicateString.toUpperCase();
-let ds01="";
+  let ds = duplicateString.toUpperCase();
+  let ds01 = "";
   for (let i = 0; i < ds.length; i++) {
     for (let j = i + 1; j < ds.length; j++) {
       if (ds[i] === ds[j]) {
@@ -56,29 +56,27 @@ let ds01="";
   }
   console.log(ds01);
 }
-CDS("abcdacbed")
+CDS("abcdacbed");
 
 // Find Without Duplicates String
 
-// console.log("2) Find Without Duplicates String");
-// function CWDS(duplicateString) {
-//   let ds=duplicateString.toUpperCase();
-//   let ds01="";
+console.log("2) Find Without Duplicates String");
+function CWDS(duplicateString) {
+  let ds = duplicateString.toUpperCase();
+  let ds01 = ds.split("");
 
-//   for (let i = 0; i < ds.length; i++) {
-//     for (let j = i + 1; j < ds.length; j++) {
-//       if (ds[i] === ds[j]) {
-//       ds.splice(i,1,"0");
-//       ds.splice(j,1,"0");
-//       }
-//     }
-//   }
-//   console.log(ds);
-// //   for (let k = 0; k < ds.length; k++){
-// //     if(ds[k]!="0"){
-// //         console.log(ds[k]);
-// //     }
-// //   }
-// }
-// CWDS("abcdacb")
-
+  for (let i = 0; i < ds01.length; i++) {
+    for (let j = i + 1; j < ds01.length; j++) {
+      if (ds01[i] === ds01[j]) {
+        ds01[i] = 0;
+        ds01[j] = 0;
+      }
+    }
+  }
+  for (let k = 0; k < ds01.length; k++) {
+    if (ds01[k] != 0) {
+      console.log(ds01[k]);
+    }
+  }
+}
+CWDS("abcdabce");

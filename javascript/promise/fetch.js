@@ -5,19 +5,19 @@
 //     console.log("anil",err);
 // })
 
-// OR 
+// OR
 // use async and await
 
-let fetchUser= async function(){
-    try{
-        let response= await fetch("https://jsonplaceholdpromiseer.typicode.com/users")
-        let data = await response.json()
-        console.log(data);
-          // console.log(await response.json());
-    }
-    catch(err){
-        console.log("error",err);
-    }
+let fetchUser = async function () {
+  try {
+    let response = await fetch("https://jsonplaceholder.typicode.com/users");
+    let data = await response.json();
+    console.log(data);
 
-}
-fetchUser()
+    
+    //   console.log(await response.json());
+  } catch (err) {
+    console.log("error", err);
+  }
+};
+fetchUser();

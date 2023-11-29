@@ -373,3 +373,6 @@ console.log("******===========********");
 
 fruits[fruits.length] = "mango";
 console.log(fruits);
+
+console.log("******===========********");
+
