@@ -25,23 +25,29 @@
 
       console.log("*******************************");
 
-      let person = {
-        fname: "krishna",
-        lname: "N H",
-        age: 24,
-      };
+      // let person = {
+      //   fname: "krishna",
+      //   lname: "N H",
+      //   age: 24,
+      // };
 
-      console.log("hasOwnProperty");
-      console.log(person.hasOwnProperty("fname"));
-      console.log(person.hasOwnProperty(""));
+      // console.log("hasOwnProperty");
+      // console.log(person.hasOwnProperty("fname"));
+      // console.log(person.hasOwnProperty(""));
 
-      console.log("*****************");
-      console.log("Object.keys");
-      console.log(Object.keys(person));
+      // console.log("*****************");
+      // console.log("Object.keys");
+      // console.log(Object.keys(person));
 
-      console.log("*****************");
-      console.log("Object.entries");
-      console.log(Object.entries(person));
+      // console.log("*****************");
+      // console.log("Object.entries");
+      // console.log(Object.entries(person));
 
-      console.log("*****************");
+      // console.log("*****************");
+
+
+
+
+
+      
    

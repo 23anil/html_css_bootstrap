@@ -108,7 +108,7 @@ company = {
   adress: ["pincode:577002", "city:Bangalogre"],
 };
 
-let friutes = ["apple","orange" , "banana", "Kiwi"];
+let friutes = ["apple", "orange", "banana", "Kiwi"];
 
 let string = "GoodMorning";
 
@@ -147,19 +147,17 @@ console.log("Object.creates");
 
 let person01 = {
   fname: "kaju",
-  age: 23
+  age: 23,
 };
-
 
 let properties = {
   name: {
     value: "raju",
   },
-  age:{
-    value:23
-  }
+  age: {
+    value: 23,
+  },
 };
-
 
 let newobj = Object.create(person01, properties);
 
@@ -173,18 +171,17 @@ let person02 = Object.assign({}, person01);
 console.log(person02);
 console.log(person01);
 
-let newcopy={...person01}
+let newcopy = { ...person01 };
 
 console.log("***********************");
 console.log("Object.freeze");
 
+let person03 = Object.freeze(person01);
 
-let person03=Object.freeze(person01);
-
-person01.state="Mangalore";
+person01.state = "Mangalore";
+person02.state = "Mangalore";
+person03.state = "Mangalore";
 
 console.log(person02);
 console.log(person01);
 console.log(person03);
-
-
