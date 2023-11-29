@@ -8,15 +8,15 @@ let promiseexample = new Promise((resolve, reject) => {
 
 // console.log(resolve);
 // console.log(reject);
-console.log(promiseexample);
+// console.log(promiseexample);
 
-// promiseexample
-//   .then((resolve) => {
-//     console.log("resolve", resolve);
-//   })
-//   .catch((anil) => {
-//     console.log("resolve", anil);
-//   })
-//   .finally(() => {
-//     console.log("finally promise excuted");
-//   });
+promiseexample
+  .then((resolve) => {
+    console.log("resolve", resolve);
+  })
+  .catch((anil) => {
+    console.log("resolve", anil);
+  })
+  .finally(() => {
+    console.log("finally promise excuted");
+  });
