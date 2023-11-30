@@ -1,5 +1,7 @@
 // Find Duplicates Array
+
 console.log("1) Find Duplicates Array");
+
 function CDA(duplicateArray) {
   let da = [];
   for (let num in duplicateArray) {
@@ -20,6 +22,7 @@ let ty = [1, 2, 3, 4, 5, 1, 2, 3, 6];
 CDA(ty);
 
 // Find Without Duplicates Array
+
 console.log("2) Find Without Duplicates Array");
 
 function CWDA(duplicateArray) {
@@ -41,9 +44,10 @@ function CWDA(duplicateArray) {
 let ty01 = [1, 2, 3, 4, 5, 1, 2, 3, 6];
 CWDA(ty01);
 
-// Find Duplicates string
+// <!-- Find Duplicates string-->
 
-console.log("2) Find Duplicates String");
+console.log("3) Find Duplicates String");
+
 function CDS(duplicateString) {
   let ds = duplicateString.toUpperCase();
   let ds01 = "";
@@ -60,7 +64,8 @@ CDS("abcdacbed");
 
 // Find Without Duplicates String
 
-console.log("2) Find Without Duplicates String");
+console.log("4) Find Without Duplicates String");
+
 function CWDS(duplicateString) {
   let ds = duplicateString.toUpperCase();
   let ds01 = ds.split("");
@@ -80,3 +85,31 @@ function CWDS(duplicateString) {
   }
 }
 CWDS("abcdabce");
+
+// Change only second character to uppercase String
+
+console.log("5) Change only second character to uppercase String");
+
+function csc(nums) {
+  let copy = [];
+
+  for (let i = 0; i < nums.length; i++) {
+    let str = "";
+    for (let j = 0; j < nums[i].length; j++) {
+      if (j == 1) {
+        str += nums[i][j].toLocaleUpperCase();
+      }
+      str += nums[i][j];
+    }
+    copy[i] = str;
+  }
+
+  console.log(copy);
+}
+
+let fruits = ["apple", "mango", "orange"];
+csc(fruits);
+
+// 
+
+

@@ -230,68 +230,80 @@
 
       // "https://jsonplaceholder.typicode.com/users"
 
+      // Promise ex01
       // let p1 = new Promise((resolve, reject) => {
-      //   if (10 === 11) {
-      //     console.log("10 is equal 10");
+      //   if (10 > 60) {
+      //     resolve("10 is greater than 6");
       //   } else {
-      //     console.log("10 is not equal 11");
+      //     reject("10 is not greater than 60");
       //   }
       // });
 
-      // p1.then((resolve) => {
-      //   console.log("resolve", resolve);
-      // }).catch((reject) => {
-      //   console.log("reject", reject);
-      // });
+      // p1.then(
+      //   (resolve) => {
+      //     console.log("resolve", resolve);
+      //   },
+      //   (reject) => {
+      //     console.log("reject", reject);
+      //   }
+      // );
 
-    // EX01
-        // fetch("https://jsonplaceholder.typicode.com/users")
-        // .then((resolve)=>resolve.json())
-        // .then((data)=> console.log("data",data));
-    
-     // EX02
-// let p2= async function (){
-//   try{
-// let pinky= await fetch("https://jsonplaceholder.typicode.com/users")
-// let pop= await pinky.json()
-// console.log(pop);
-//   }
-//   catch(err){
-// console.log(err);
-//   }
-// }
-// p2();
+      // ex02
 
-// EX03
+      // fetch("https://jsonplaceholder.typicode.com/users")
+      //   .then((resolve) => resolve.json())
+      //   .then((anil) => {
+      //     console.log(anil);
+      //   })
+      //   .catch((err) => {
+      //     console.log("error01", err);
+      //   });
 
-let  promise1=new Promise((resolve)=>{
-  fetch("https://jsonplaceholder.typicode.com/users")
-  .then((response)=>response.json())
-  .then((data)=>resolve(data))
-})
+      // ex03
 
-let promise2=new Promise((praveen)=>{
-  fetch("https://jsonplaceholder.typicode.com/todos")
-  .then((raghu)=>raghu.json())
-  .then((ramu)=>praveen(ramu))
-})
+      // let p4 = async function () {
+      //   try {
+      //     let raju = await fetch("https://jsonplaceholder.typicode.com/users");
+      //     let kumar = await raju.json();
+      //     console.log("kumar", kumar);
+      //   } catch (err) {
+      //     console.log("error", err);
+      //   }
+      // };
+      // p4();
 
-// Promise.all([promise1,promise2])
-// .then((anil)=>{
-//   console.log("anil",anil);
-// })
-// .catch((err)=>{
-//   console.log("err",err);
-// })
+      // ex04
 
-Promise.race([promise1,promise2])
-.then((anil)=>{
-  console.log("anil",anil);
-})
-.catch((err)=>{
-  console.log("err",err);
-})
+      let promise01 = new Promise((run, notrun) => {
+        fetch("https://jsonplaceholder.typicode.com/users")
+          .then((run) => run.json())
+          .then((red) => run(red));
+      });
 
+      let promise02 = new Promise((run, notrun) => {
+        fetch("https://jsonplaceholder.typicode.com/todos")
+          .then((run) => run.json())
+          .then((red) => run(red))
+          .catch((err) => {
+            console.log("error", err);
+          });
+      });
+
+      // Promise.all([promise01, promise02])
+      //   .then((ramu) => {
+      //     console.log("ramu", ramu);
+      //   })
+      //   .catch((err01) => {
+      //     console.log("error", err01);
+      //   });
+
+      Promise.race([promise01, promise02])
+        .then((ramu) => {
+          console.log("ramu", ramu);
+        })
+        .catch((err01) => {
+          console.log("error", err01);
+        });
     </script>
   </body>
 </html>

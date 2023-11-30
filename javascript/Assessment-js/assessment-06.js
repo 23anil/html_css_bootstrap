@@ -182,6 +182,8 @@ console.log("*) Create Array");
 
 let employee = ["Anil", 101, "TCS", "Bangalore", "FulStack Developer"];
 
+
+
 console.log("Read Array");
 
 // console.log("employee",employee);

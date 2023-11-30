@@ -6,57 +6,57 @@
     <title>Checking-javascript</title>
   </head>
   <body>
-   <script>
-      
-    //   var array01 = [5, 4, 3, 2, 1];
+    <script>
+      //   var array01 = [5, 4, 3, 2, 1];
 
-    //   // Normal Sort
+      //   // Normal Sort
 
-    //   for (var i = 0; i < array01.length; i++) {
-    //     var temp;
-    //     for (var j = 0; j < array01.length - 1; j++) {
-    //       if (array01[j] > array01[j + 1]) {
-    //         temp = array01[j];
-    //         array01[j] = array01[j + 1];
-    //         array01[j + 1] = temp;
-    //       }
-    //     }
-    //   }
-    //   console.log(array01);
+      //   for (var i = 0; i < array01.length; i++) {
+      //     var temp;
+      //     for (var j = 0; j < array01.length - 1; j++) {
+      //       if (array01[j] > array01[j + 1]) {
+      //         temp = array01[j];
+      //         array01[j] = array01[j + 1];
+      //         array01[j + 1] = temp;
+      //       }
+      //     }
+      //   }
+      //   console.log(array01);
 
-    //   // Bubble Sort
+      //   // Bubble Sort
 
-    //   for (var i = 0; i < array01.length; i++) {
-    //     for (var j = 0; j < array01.length - i - 1; j++) {
-    //       if (array01[j] > array01[j + 1]) {
-    //         var temp = array01[j];
-    //         array01[j] = array01[j + 1];
-    //         array01[j + 1] = temp;
-    //       }
-    //     }
-    //   }
-    //   console.log(array01);
+      //   for (var i = 0; i < array01.length; i++) {
+      //     for (var j = 0; j < array01.length - i - 1; j++) {
+      //       if (array01[j] > array01[j + 1]) {
+      //         var temp = array01[j];
+      //         array01[j] = array01[j + 1];
+      //         array01[j + 1] = temp;
+      //       }
+      //     }
+      //   }
+      //   console.log(array01);
 
-    //   var a = "10";
-    //   var b = 10;
-    //   console.log(a === b);
-    //   console.log(a == b);
-    //   console.log(typeof a);
-    //   console.log(typeof b); 
-      
+      //   var a = "10";
+      //   var b = 10;
+      //   console.log(a === b);
+      //   console.log(a == b);
+      //   console.log(typeof a);
+      //   console.log(typeof b);
 
-      var str="GoodMorning"
+      let str = "mango";
 
-      console.log(str.padStart(13,"Hi").concat(" hello"));
-      console.log(str.charCodeAt(0)+4);
+      let str01 = "";
 
-      let person=new Object();
+      for (let i = 0; i < str.length; i++) {
+        if (i === 1) {
+          str01 += str[i].toLocaleUpperCase();
+          // console.log(str[i].toUpperCase());
+        }
+        str01 += str[i];
+      }
 
-      person.name="anil"
-      person.age=23
-      
-
-      console.log(person);
+      console.log(str);
+      console.log(str01);
     </script>
   </body>
 </html>
