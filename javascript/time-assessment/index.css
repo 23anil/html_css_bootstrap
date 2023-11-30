@@ -3,13 +3,71 @@ body {
   margin: 0px !important;
 }
 
-.hours-minites {
-  background-color: black;
-  height: 100vh;
-  width: 50%;
+.innerhoursdiv {
+  display: flex;
+  height: 21%;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
 }
-.seconds {
+
+.secondsdiv {
+  display: flex;
   background-color: lightgreen;
+  color: black;
   height: 100vh;
   width: 50%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
+
+.hoursMinitesdiv {
+  display: flex;
+  background-color: black;
+  color: white;
+  height: 100vh;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+/* 
+.pTags {
+  font-size: 3vw;
+  font-weight: 600;
+  color: white;
+} */
+
+.hm {
+  font-size: 15vw;
+  font-weight: 700;
+  font-family:cursive;
+  color: white;
+}
+
+.cs{
+  font-size: 33vw;
+  font-weight: 700;
+  font-family:cursive;
+  color: black;
+}
+
+.secondchild1st{
+  height: 85vh;
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: bisque; */
+}
+
+/* .secondchild2nd{
+  height: 13vh;
+  width: 200%;
+  background-color: aquamarine;
+margin-top: -72vh;
+margin-left: 65%;
+} */
+
+
+
