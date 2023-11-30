@@ -1,0 +1,15 @@
+body {
+  display: flex;
+  margin: 0px !important;
+}
+
+.hours-minites {
+  background-color: black;
+  height: 100vh;
+  width: 50%;
+}
+.seconds {
+  background-color: lightgreen;
+  height: 100vh;
+  width: 50%;
+}
