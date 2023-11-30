@@ -110,6 +110,27 @@ function csc(nums) {
 let fruits = ["apple", "mango", "orange"];
 csc(fruits);
 
-// 
+// merge and find without duplicate elements array
 
+let add = [1, 2, 3, 4, 5, 1];
+let nums01 = [2, 6, 4];
 
+let nums02 = [...add, ...nums01];
+
+let without_duplicates = [];
+let duplicates = [];
+
+for (let i of nums02) {
+  if (without_duplicates.indexOf(i) === -1) {
+    without_duplicates.push(i);
+  }
+}
+for (let i = 0; i < 1; i++) {
+  for (let i = 0; i < nums02; i++) {
+
+  }
+}
+console.log(without_duplicates);
+// console.log(duplicates);
+
+// merge and find duplicate elements array
