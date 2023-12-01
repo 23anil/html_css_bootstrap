@@ -10,41 +10,73 @@ let hoursInnerDiv = document.getElementById("timeDiv01");
 
 hoursInnerDiv.classList.add("innerhoursdiv");
 
-let sc1= document.getElementById("second1stchild");
+let sc1 = document.getElementById("second1stchild");
 
 sc1.classList.add("secondchild1st");
 
-// let sc2= document.getElementById("second2ndchild");
+let sc2 = document.getElementById("second2ndchild");
 
-// sc2.classList.add("secondchild2nd");
+sc2.classList.add("secondchild2nd");
 
+let sc3 = document.getElementById("second3rddchild");
 
+sc3.classList.add("secondchild3rd");
 
+let h = document.getElementById("hours");
 
+h.classList.add("onlyhours");
 
-// let hoursptag=document.getElementById("hm")
+let m = document.getElementById("minutes");
 
-// hoursptag.classList("pTags")
+m.classList.add("onlyminutes");
 
-// hours-minits 
+let d = document.getElementById("dot");
 
-function current_hm() {
+d.classList.add("onlydot");
+
+// Hours
+
+function current_h() {
   let time = new Date();
-  let chm = time.getHours() + ":" + time.getMinutes();
-  document.getElementById("hm").innerHTML = chm;
+  let ch = time.getHours();
+  let hours = ch < 10 ? "0" + ch : ch;
+  document.getElementById("hours").innerHTML = hours;
 }
-setInterval(current_hm, 1000);
+setInterval(current_h, 1000);
 
-// seconds 
-
-function current_s(){
-    let time=new Date();
-let cs = time.getSeconds();
-document.getElementById("s").innerHTML=cs;
-
+// dot
+function current_dot() {
+  document.getElementById("dot").innerHTML = ":";
+  // d.add(innerHTML=":")
 }
-setInterval(current_s,1000);
+setInterval(current_dot, 1000);
 
+// Minutes
 
+function current_m() {
+  let time = new Date();
+  let cm = time.getMinutes();
+  let minutes = cm < 10 ? "0" + cm : cm;
+  document.getElementById("minutes").innerHTML = minutes;
+}
+setInterval(current_m, 1000);
 
+// seconds
 
+function current_s() {
+  let time = new Date();
+  let cs = time.getSeconds();
+  let seconds = cs < 10 ? "0" + cs : cs;
+  document.getElementById("second3rddchild").innerHTML = seconds;
+}
+setInterval(current_s, 1000);
+
+// AM/PM
+
+function current_day() {
+  let time = new Date();
+  let hours = time.getHours();
+  var amPM = hours < 12 ? "AM" : "PM";
+  document.getElementById("second2ndchild").innerHTML = amPM;
+}
+setInterval(current_day, 1000);

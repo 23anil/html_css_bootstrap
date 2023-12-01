@@ -7,7 +7,7 @@ console.log("element", element);
 // element.innerHTML="<button>click me</button"
 // element.innerText="<button>click me</button>"
 
-// let newptag=document.createElement("p")
+let newptag = document.createElement("p");
 
 // console.log("newptag",newptag);
 
@@ -15,25 +15,27 @@ console.log("element", element);
 
 // let  le=document.getElementById("lastelem").appendChild(newptag);
 
-// or 
+// or
+document.innerHTML = "hiii";
+document.innerText = "hi";
+console.log(newptag);
+document.write((newptag.innerText = "hello anil"));
 
-// document.write(newptag.innerText="hello anil")
+// class
 
-// class 
+let class01 = document.getElementsByClassName("demo");
+console.log("class01", class01[1]);
 
-// let class01=document.getElementsByClassName("demo");
-// console.log("class01",class01);
-
-// // to make train as space ship
+// to make train as space ship
 
 // class01[0].innerText="ship"  ;
 
-// tag name 
+// tag name
 
 // let alltags=document.getElementsByTagName("p")
 // console.log("alltags",alltags);
 
-// querySelector 
+// querySelector
 
 // let onetag=document.querySelector("p")
 // console.log(onetag);
@@ -43,31 +45,24 @@ console.log("element", element);
 // let alltags=document.querySelectorAll("p")
 // console.log("alltags",alltags);
 
-let randomcontent = document.getElementById("randomtext");
+// let randomcontent = document.getElementById("randomtext");
 // randomcontent.classList="style1";
 
 // console.log(randomcontent);
 
-let changes=()=>{
-    setTimeout(()=>{
-        randomcontent.classList.add("style1")
-    },0)
+// let changes=()=>{
+//     setTimeout(()=>{
+//         randomcontent.classList.add("style1")
+//     },0)
 
-    setTimeout(()=>{
-        randomcontent.classList.add("style2")
-    },3000)
-    setTimeout(()=>{
-        randomcontent.classList.remove("style2")
-    },6000)
-    setTimeout(()=>{
-        randomcontent.classList.add("style3")
-    },9000)
-}
-changes();
-
-
-
-
-
-
-
+//     setTimeout(()=>{
+//         randomcontent.classList.add("style2")
+//     },3000)
+//     setTimeout(()=>{
+//         randomcontent.classList.remove("style2")
+//     },6000)
+//     setTimeout(()=>{
+//         randomcontent.classList.add("style3")
+//     },9000)
+// }
+// changes();
