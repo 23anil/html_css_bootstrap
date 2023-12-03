@@ -5,7 +5,7 @@ var age = 23;
 
 // console.log(this.name);
 
-console.log(this.window);
+// console.log(this.window);
 
 // console.log(this.location);
 
@@ -31,12 +31,11 @@ console.log(this.window);
 //   console.log("loc", loc.coords);
 // });
 
-// let userage = prompt("enter the your age");
+let userage = prompt("enter the your age");
 
-// if (userage > 18) {
-//   open("https://www.flipkart.com/");
-// } else {
-  //   open("https://www.firstcry.com/");
-//   close();
-
-// }
+if (userage > 18) {
+  open("https://www.flipkart.com/");
+} else {
+  open("https://www.firstcry.com/");
+  close();
+}
