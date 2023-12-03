@@ -261,33 +261,33 @@
 
       // ex03
 
-      // let p4 = async function () {
-      //   try {
-      //     let raju = await fetch("https://jsonplaceholder.typicode.com/users");
-      //     let kumar = await raju.json();
-      //     console.log("kumar", kumar);
-      //   } catch (err) {
-      //     console.log("error", err);
-      //   }
-      // };
-      // p4();
+      let p4 = async function () {
+        try {
+          let raju = await fetch("https://jsonplaceholder.typicode.com/users");
+          let kumar = await raju.json();
+          console.log("kumar", kumar);
+        } catch (err) {
+          console.log("error", err);
+        }
+      };
+      p4();
 
       // ex04
 
-      let promise01 = new Promise((run, notrun) => {
-        fetch("https://jsonplaceholder.typicode.com/users")
-          .then((run) => run.json())
-          .then((red) => run(red));
-      });
+      // let promise01 = new Promise((run, notrun) => {
+      //   fetch("https://jsonplaceholder.typicode.com/users")
+      //     .then((run) => run.json())
+      //     .then((red) => run(red));
+      // });
 
-      let promise02 = new Promise((run, notrun) => {
-        fetch("https://jsonplaceholder.typicode.com/todos")
-          .then((run) => run.json())
-          .then((red) => run(red))
-          .catch((err) => {
-            console.log("error", err);
-          });
-      });
+      // let promise02 = new Promise((run, notrun) => {
+      //   fetch("https://jsonplaceholder.typicode.com/todos")
+      //     .then((run) => run.json())
+      //     .then((red) => run(red))
+      //     .catch((err) => {
+      //       console.log("error", err);
+      //     });
+      // });
 
       // Promise.all([promise01, promise02])
       //   .then((ramu) => {
@@ -297,13 +297,13 @@
       //     console.log("error", err01);
       //   });
 
-      Promise.race([promise01, promise02])
-        .then((ramu) => {
-          console.log("ramu", ramu);
-        })
-        .catch((err01) => {
-          console.log("error", err01);
-        });
+      // Promise.race([promise01, promise02])
+      //   .then((ramu) => {
+      //     console.log("ramu", ramu);
+      //   })
+      //   .catch((err01) => {
+      //     console.log("error", err01);
+      //   });
     </script>
   </body>
 </html>

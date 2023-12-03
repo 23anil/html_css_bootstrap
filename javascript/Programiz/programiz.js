@@ -117,6 +117,8 @@ let nums01 = [2, 6, 4];
 
 let nums02 = [...add, ...nums01];
 
+console.log("orrginal merge array");
+console.log(nums02);
 let without_duplicates = [];
 let duplicates = [];
 
@@ -125,12 +127,18 @@ for (let i of nums02) {
     without_duplicates.push(i);
   }
 }
-for (let i = 0; i < 1; i++) {
-  for (let i = 0; i < nums02; i++) {
 
+let p=0;
+for (let k = 0; k < nums02.length; k++) {
+  for (let j = k+1; j < nums02.length; j++) {
+    if (nums02[k] === nums02[j]) {
+     duplicates[p]=nums02[k];
+     p++;
+    }
   }
 }
+console.log("without_duplicates");
 console.log(without_duplicates);
-// console.log(duplicates);
+console.log("duplicates");
+console.log(duplicates);
 
-// merge and find duplicate elements array
