@@ -5,20 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Checking-javascript</title>
     <style>
-      body {
-        margin: 0 !important;
-      }
-      #main {
-        height: 50vh;
-        width: 50vw;
-        background-color: lightgray;
-      }
-      #subdiv {
-        height: 13vh;
-        width: 50%;
-        background-color: lightpink;
-        margin-left: 50%;
-      }
+    
     </style>
   </head>
   <body>
@@ -58,16 +45,15 @@
       //   console.log(a == b);
       //   console.log(typeof a);
       //   console.log(typeof b);
-    </script>
+      let p = document.getElementById("box")
+      console.log(p);
+      let p2= document.getElementsByClassName("box01")
+      console.log(p2);
 
-    <div id="main">
-      <div id="subdiv">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt magnam
-        consequuntur, libero asperiores excepturi neque maiores necessitatibus
-        ipsum natus harum ad, deleniti quia aperiam non, obcaecati voluptate!
-        Sit, fugit dolore.
-      </div>
-      p
+    </script>
+<p id="box">paragraph</p>
+<p class="box01">paragraph</p>
+
     </div>
   </body>
 </html>
