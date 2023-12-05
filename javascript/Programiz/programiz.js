@@ -112,45 +112,35 @@
 
 // merge and find without duplicates & with duplicates elements array
 
-// let add = [1, 2, 3, 4, 5, 1];
-// let nums01 = [2, 6, 4];
+let add = [1, 2, 3, 4, 5, 1];
+let nums01 = [2, 6, 4];
 
-// let nums02 = [...add, ...nums01];
+let nums02 = [...add, ...nums01];
 
-// console.log("orrginal merge array");
-// console.log(nums02);
-// let without_duplicates = [];
-// let duplicates = [];
+console.log("orrginal merge array");
+console.log(nums02);
+let without_duplicates = [];
+let duplicates = [];
 
-// for (let i of nums02) {
-//   if (without_duplicates.indexOf(i) === -1) {
-//     without_duplicates.push(i);
-//   }
-// }
+for (let i of nums02) {
+  if (without_duplicates.indexOf(i) === -1) {
+    without_duplicates.push(i);
+  }
+}
 
-// let p = 0;
-// for (let k = 0; k < nums02.length; k++) {
-//   for (let j = k + 1; j < nums02.length; j++) {
-//     if (nums02[k] === nums02[j]) {
-//       duplicates[p] = nums02[k];
-//       p++;
-//     }
-//   }
-// }
-// console.log("without_duplicates");
-// console.log(without_duplicates);
-// console.log("duplicates");
-// console.log(duplicates);
+let p = 0;
+for (let k = 0; k < nums02.length; k++) {
+  for (let j = k + 1; j < nums02.length; j++) {
+    if (nums02[k] === nums02[j]) {
+      duplicates[p] = nums02[k];
+      p++;
+    }
+  }
+}
+console.log("without_duplicates");
+console.log(without_duplicates);
+console.log("duplicates");
+console.log(duplicates);
 
 // palindrome
 
-let pal = 120;
-
-let pal1 = 0;
-
-while (pal > 0) {
-  let rem = pal % 10;
-  pal1 = rem;
-  console.log(pal1);
-  pal1 = pal1 / 10;
-}
