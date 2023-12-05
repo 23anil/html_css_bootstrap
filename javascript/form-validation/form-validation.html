@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form-Validation</title>
+    <script defer src="form-validation.js"></script>
+    <link rel="stylesheet" href="form-validation.css" />
+  </head>
+  <body>
+    <div>
+      <form name="formdata">
+        <div>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="enter user name"
+          />
+          <p class="empty">please enter user name</p>
+          <p class="wronginput">invalid user name</p>
+        </div>
+        <br />
+        <div>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="enter user password"
+          />
+          <p class="empty">please enter user password</p>
+          <p class="wronginput">invalid user password</p>
+        </div>
+        <br />
+        <div>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="enter user email"
+          />
+          <p class="empty">please enter user email</p>
+          <p class="wronginput">invalid user email</p>
+        </div>
+<br>
+<div>
+    <input
+      type="number"
+      name="age"
+      id="age"
+      placeholder="enter user age"
+    />
+    <p class="empty">please enter user age</p>
+    <p class="wronginput">invalid user age</p>
+  </div>
+
+        <br />
+        <div>
+          <label>courses</label>
+          <select name="courses" id="courses">
+            <option value="select">select</option>
+            <option value="java">java</option>
+            <option value="python">python</option>
+            <option value="c++">c++</option>
+            <option value="devops">devops</option>
+          </select>
+        </div>
+        <br />
+        <div>
+          <label>Gender</label>
+          <br />
+          <label>Male</label>
+          <input type="radio" name="gender" id="gender" value="male" />
+          <br />
+          <label>Female</label>
+          <input type="radio" name="gender" id="gender" value="female" />
+          <p class="empty">please select options</p>
+        </div>
+        <br />
+        <div>
+          <label>i agree with terms & condictions</label>
+          <input type="checkbox" name="checkbox" id="checkbox" value="agree" />
+          <p class="empty">please select options</p>
+        </div>
+
+        <br />
+        <button id="sunmit-btn">sunmit</button>
+      </form>
+    </div>
+  </body>
+</html>

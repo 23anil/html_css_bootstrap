@@ -1,5 +1,5 @@
-<!DOCTYPE html  >
-<html lang="en" >
+<!DOCTYPE html>
+<html lang="en">
   <head onload="adddata()">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -21,7 +21,7 @@
   <body class="d-flex justify-content-center mt-5">
     <div class="container01">
       <h1 class="d-flex justify-content-center">user login</h1>
-      <form action="" class="was-validated">
+      <form action="" >
         <div class="mb-3 mt-3">
           <label for="fname" class="form-label">First Name:</label>
           <input
@@ -32,8 +32,6 @@
             name="fname"
             required
           />
-          <div class="valid-feedback">Valid.</div>
-          <div class="invalid-feedback">Please fill out this field.</div>
         </div>
         <div class="mb-3">
           <label for="lname" class="form-label">Last Name:</label>
@@ -45,8 +43,6 @@
             name="lname"
             required
           />
-          <div class="valid-feedback">Valid.</div>
-          <div class="invalid-feedback">Please fill out this field.</div>
         </div>
         <div class="mb-3">
           <label for="age" class="form-label">age:</label>
@@ -58,15 +54,31 @@
             name="age"
             required
           />
-          <div class="valid-feedback">Valid.</div>
-          <div class="invalid-feedback">Please fill out this field.</div>
         </div>
         <div class="mb-3 d-flex justify-content-center">
-          <button type="reset" class="btn btn-primary"  onclick="storeInput()">Submit</button>
-          <button type="reset" class="btn btn-primary"  >store</button>
-        </div >
+          <button
+            type="reset"
+            class="btn btn-primary"
+            onclick="storeInput(event)"
+          >
+            Submit
+          </button>
+        </div>
       </form>
     </div>
- 
-  </body >
-</html >
+    <div>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody id="put">
+         
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
