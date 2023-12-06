@@ -112,35 +112,83 @@
 
 // merge and find without duplicates & with duplicates elements array
 
-let add = [1, 2, 3, 4, 5, 1];
-let nums01 = [2, 6, 4];
+// let add = [1, 2, 3, 4, 5, 1];
+// let nums01 = [2, 6, 4];
 
-let nums02 = [...add, ...nums01];
+// let nums02 = [...add, ...nums01];
 
-console.log("orrginal merge array");
-console.log(nums02);
-let without_duplicates = [];
-let duplicates = [];
+// console.log("orrginal merge array");
+// console.log(nums02);
+// let without_duplicates = [];
+// let duplicates = [];
 
-for (let i of nums02) {
-  if (without_duplicates.indexOf(i) === -1) {
-    without_duplicates.push(i);
-  }
-}
+// for (let i of nums02) {
+//   if (without_duplicates.indexOf(i) === -1) {
+//     without_duplicates.push(i);
+//   }
+// }
 
-let p = 0;
-for (let k = 0; k < nums02.length; k++) {
-  for (let j = k + 1; j < nums02.length; j++) {
-    if (nums02[k] === nums02[j]) {
-      duplicates[p] = nums02[k];
-      p++;
-    }
-  }
-}
-console.log("without_duplicates");
-console.log(without_duplicates);
-console.log("duplicates");
-console.log(duplicates);
+// let p = 0;
+// for (let k = 0; k < nums02.length; k++) {
+//   for (let j = k + 1; j < nums02.length; j++) {
+//     if (nums02[k] === nums02[j]) {
+//       duplicates[p] = nums02[k];
+//       p++;
+//     }
+//   }
+// }
+// console.log("without_duplicates");
+// console.log(without_duplicates);
+// console.log("duplicates");
+// console.log(duplicates);
 
 // palindrome
+//reverse number
+// function palindrome(){
+//   let input=123;
+// // let input01=input;
+// let reverseinput=0;
+// while(input!=0)
+// {
+// let rem=input%10;
+// reverseinput=reverseinput*10+rem;
+// input=input/10;
+// }
+// console.log(reverseinput);
+// }
+// palindrome();
+
+////
+function reverseNumber(num) {
+  let reversed = '';
+  const numStr = num.toString();
+
+  for (let i = numStr.length - 1; i >= 0; i--) {
+    reversed += numStr[i];
+  }
+
+  return parseInt(reversed, 10); // Convert the reversed string back to a number
+}
+
+
+const reversedNumber = reverseNumber(1234);
+console.log(  reversedNumber ); // Output: 54321
+
+
+
+
+///
+
+let input="hello word"
+
+let split=input.split(" ")
+
+
+console.log(split);
+
+for(let i=split.length-1;i>=0;i++){
+  console.log(split[i]);
+}
+
+
 
