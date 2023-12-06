@@ -4,8 +4,8 @@
       console.log("round " + Math.round(9.5));
       console.log("pow " + Math.pow(3, 4));
       console.log("abs " + Math.abs(-3.3));
-      console.log("ceil " + Math.ceil(-3.3));
-      console.log("floor " + Math.floor(3.3));
+      console.log("ceil " + Math.ceil(43.1));
+      console.log("floor " + Math.floor(43.1));
       console.log("trunc " + Math.trunc(3.5));
       console.log("exp " + Math.exp(3.5));
 
@@ -19,3 +19,6 @@
       console.log(randomNumber);
 
       console.log("*******************************************");
+
+      console.log(Math.floor( Math.random()*(50-10)+10));
+      console.log(Math.random()*(50-10)+10);

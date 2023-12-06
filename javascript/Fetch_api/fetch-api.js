@@ -3,6 +3,8 @@ fetch("https://jsonplaceholder.typicode.com/users")
   // Converting received data to JSON
   .then((response) => response.json())
   .then((json) => {
+
+    console.log(json)
     // 2. Create a variable to store HTML table headers
     let li = `<tr><th>ID</th><th>Name</th><th>User Name</th><th>Email</th> <th>Phone</th><th>Website</th></tr>`;
 
@@ -20,4 +22,7 @@ fetch("https://jsonplaceholder.typicode.com/users")
 
     // 4. DOM Display result
     document.getElementById("users").innerHTML = li;
-  });
+  })
+  .catch((err)=>{
+    console.log(err);
+  })
