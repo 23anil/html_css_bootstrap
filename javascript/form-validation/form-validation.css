@@ -1,4 +1,6 @@
-.empty,.wronginput{
+#emptyusername,#invalidusername,#invalidpassword,#emptypassword,#emptyemail,#invalidemail,
+#emptyage,#invalideage,#emptycourses,#emptyemptygender,#emptysubjects
+{
     color: red;
     display: none;
 }

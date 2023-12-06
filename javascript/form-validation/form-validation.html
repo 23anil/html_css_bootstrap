@@ -17,8 +17,8 @@
             id="username"
             placeholder="enter user name"
           />
-          <p class="empty">please enter user name</p>
-          <p class="wronginput">invalid user name</p>
+          <p id="emptyusername">please enter user name</p>
+          <p id="invalidusername">invalid user name</p>
         </div>
         <br />
         <div>
@@ -28,10 +28,11 @@
             id="password"
             placeholder="enter user password"
           />
-          <p class="empty">please enter user password</p>
-          <p class="wronginput">invalid user password</p>
+          <p id="emptypassword">please enter user password</p>
+          <p id="invalidpassword">invalid user password</p>
         </div>
         <br />
+
         <div>
           <input
             type="email"
@@ -39,52 +40,61 @@
             id="email"
             placeholder="enter user email"
           />
-          <p class="empty">please enter user email</p>
-          <p class="wronginput">invalid user email</p>
+          <p id="emptyemail">please enter user email</p>
+          <p id="invalidemail">invalid user email</p>
         </div>
-<br>
-<div>
-    <input
-      type="number"
-      name="age"
-      id="age"
-      placeholder="enter user age"
-    />
-    <p class="empty">please enter user age</p>
-    <p class="wronginput">invalid user age</p>
-  </div>
+        <br />
+
+        <div>
+          <input
+            type="number"
+            name="age"
+            id="age"
+            placeholder="enter user age"
+          />
+          <p id="emptyage">please enter user age</p>
+          <p id="invalideage">invalid user age</p>
+        </div>
 
         <br />
+    
         <div>
           <label>courses</label>
           <select name="courses" id="courses">
-            <option value="select">select</option>
-            <option value="java">java</option>
-            <option value="python">python</option>
-            <option value="c++">c++</option>
-            <option value="devops">devops</option>
-          </select>
+            <option value="0">select</option>
+            <option value="1">java</option>
+            <option value="2">python</option>
+            <option value="3">c++</option>
+            <option value="4">devops</option>
+            </select>
+            <p id="emptycourses">please select option</p>
         </div>
         <br />
+          
         <div>
           <label>Gender</label>
           <br />
           <label>Male</label>
-          <input type="radio" name="gender" id="gender" value="male" />
+          <input type="radio" name="gender" id="gender1" value="male" />
           <br />
           <label>Female</label>
-          <input type="radio" name="gender" id="gender" value="female" />
-          <p class="empty">please select options</p>
+          <input type="radio" name="gender" id="gender2" value="female" />
+          <p id="emptyemptygender">please select options</p>
         </div>
         <br />
         <div>
-          <label>i agree with terms & condictions</label>
-          <input type="checkbox" name="checkbox" id="checkbox" value="agree" />
-          <p class="empty">please select options</p>
-        </div>
+          <label>subjects</label>
+          <br>
+          kannada:<input type="checkbox" name="subject1" id="subject1" value="kannada" />
+          <br>
+          english:<input type="checkbox" name="subject2" id="subject2" value="english" />
+          <br>
+          Hindi:<input type="checkbox" name="subject3" id="subject3" value="Hindi" />
+          <p id="emptysubjects">please select options</p>
+        </div> 
 
         <br />
-        <button id="sunmit-btn">sunmit</button>
+        <button id="loginbtn">sunmit</button>
       </form>
     </div>
   </body>
