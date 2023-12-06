@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(145, 72, 213);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.namediv{
+   
+    color: white;
+    height: auto;
+    width: 40%;
+    font-size: 1.5vw;
+ 
+}
+.namediv h1{
+    line-height: 150%;
+}
+.namediv input{
+    height: 30%;
+    width: 100%;
+    font-size: 200%;
+    border-radius: 6px;
+    border: 0px solid white;
+}
+.namediv input::placeholder{
+ 
+    font-size: 20px;
+}

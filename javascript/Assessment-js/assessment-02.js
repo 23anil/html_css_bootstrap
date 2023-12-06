@@ -48,7 +48,7 @@
       console.log("******************");
       console.log(" 04)WAP to find Bubble Sort");
       
-      var array01 = [5, 4, 3, 2, 1];
+      var array01 = [5, 4, 3, 2, 1,1,5,3];
 
       // Normal Sort
 
