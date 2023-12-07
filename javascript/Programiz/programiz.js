@@ -143,52 +143,46 @@
 // console.log(duplicates);
 
 // palindrome
-//reverse number
-// function palindrome(){
-//   let input=123;
-// // let input01=input;
-// let reverseinput=0;
-// while(input!=0)
-// {
-// let rem=input%10;
-// reverseinput=reverseinput*10+rem;
-// input=input/10;
-// }
-// console.log(reverseinput);
-// }
-// palindrome();
+// reverse number
 
-////
-function reverseNumber(num) {
-  let reversed = '';
-  const numStr = num.toString();
 
-  for (let i = numStr.length - 1; i >= 0; i--) {
-    reversed += numStr[i];
+function palindrome() {
+  // debugger;
+  let input = 23;
+  let input01=input;
+  let reverseinput = 0;
+  while (input > 0) {
+    let rem = input % 10;
+    reverseinput = reverseinput * 10 + rem;
+    input = parseInt(input/10)
   }
-
-  return parseInt(reversed, 10); // Convert the reversed string back to a number
+ 
 }
+palindrome();
 
+// ////
+// function reverseNumber(num) {
+//   let reversed = '';
+//   const numStr = num.toString();
 
-const reversedNumber = reverseNumber(1234);
-console.log(  reversedNumber ); // Output: 54321
+//   for (let i = numStr.length - 1; i >= 0; i--) {
+//     reversed += numStr[i];
+//   }
 
+//   return parseInt(reversed, 10); // Convert the reversed string back to a number
+// }
 
+// const reversedNumber = reverseNumber(1234);
+// console.log(  reversedNumber ); // Output: 54321
 
+// ///
 
-///
+// let input="hello word"
 
-let input="hello word"
+// let split=input.split(" ")
 
-let split=input.split(" ")
+// console.log(split);
 
-
-console.log(split);
-
-for(let i=split.length-1;i>=0;i++){
-  console.log(split[i]);
-}
-
-
-
+// for(let i=split.length-1;i>=0;i++){
+//   console.log(split[i]);
+// }
