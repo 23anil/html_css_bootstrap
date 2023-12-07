@@ -12,7 +12,7 @@ console.log(this.window);
 // console.log(this.location);
 
 // console.log(this.geolocation);
-// console.log(this.navigator);
+console.log(this.navigator);
 // console.log(this.history);
 // console.log("innerHeight", this.innerHeight);
 // console.log("innerWidth", this.innerWidth);

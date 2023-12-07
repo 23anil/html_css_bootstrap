@@ -18,8 +18,8 @@ getdata.addEventListener("input",function() {
         <div class="card cards"  ">
         <img src="${user.Poster}" class="card-img-top card-image" alt="...">
           <div class="card-body">
-            <h5 class="card-title">${user.Title}</h5>
-            <p class="card-text">${user.Year}</p>
+            <h5 class="card-title movie-name">${user.Title}</h5>
+            <p class="card-text movie-year">${user.Year}</p>
             <a href="#" class="btn btn-secondary button">Movie Details</a>
           </div>
         </div> `;
