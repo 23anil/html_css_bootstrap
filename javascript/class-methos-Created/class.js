@@ -1,14 +1,12 @@
 class car {
-  carname;
-  year;
-  constructor(carname) {
+  constructor(carname,year) {
     this.carname = carname;
+    this.year = year;
   }
-
   details() {
- console.log( carname,year);
+return(`carname : ${this.name}`);
   }
 }
 let car1 = new car("BMW", 2014);
 
-car1.details();
+console.log(car1.details());

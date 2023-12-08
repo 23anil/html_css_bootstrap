@@ -160,36 +160,32 @@ palindrome();
 
 // Anagram
 
-function Anagram(a, b) {
-  if (a.length === b.length) {
-    let a1 = a.toLowerCase();
-    let b1 = b.toLowerCase();
-    let a2 = a1.split("");
-    let b2 = b1.split("");
-let c=0
-    for (let i = 0; i < a.length; i++) {
-      for (let j = 0; j < b.length; j++)
-        if (a2[i] === b2[j]) {
-          c++;
-        }
-    }
-    if(c===b2.length)
-  {
-    console.log("Anagram");
-  }else{
-    console.log(" Not Anagram");
+// function Anagram(a, b) {
+//   if (a.length === b.length) {
+//     let a1 = a.toLowerCase();
+//     let b1 = b.toLowerCase();
+//     let a2 = a1.split("");
+//     let b2 = b1.split("");
+// let c=0
+//     for (let i = 0; i < a.length; i++) {
+//       for (let j = 0; j < b.length; j++)
+//         if (a2[i] === b2[j]) {
+//           c++;
+//         }
+//     }
+//     if(c===b2.length)
+//   {
+//     console.log("Anagram");
+//   }else{
+//     console.log(" Not Anagram");
+//   }
+//   }
+//   else{
+//     console.log(" Not Anagram");
 
-  }
-  }
-  else{
-    console.log(" Not Anagram");
-
-  }
-  
-}
-
-
-Anagram("anil", "lina");
+//   }
+// }
+// Anagram("anil", "lina");
 
 // let input="hello word"
 
@@ -200,3 +196,37 @@ Anagram("anil", "lina");
 // for(let i=split.length-1;i>=0;i++){
 //   console.log(split[i]);
 // }
+
+// count vowels 
+
+function findvowels(a) {
+  let vowels = a.toLowerCase();
+  let c = 0;
+  for (let i = 0; i < vowels.length; i++) {
+    if (
+      vowels[i] === "a" ||
+      vowels[i] === "e" ||
+      vowels[i] === "i" ||
+      vowels[i] === "o" ||
+      vowels[i] === "u"
+    ) {
+      c++;
+    }
+  }
+  console.log(c);
+}
+findvowels("ABICEpowuga");
+
+// example02
+
+function findvowels01(a) {
+  let str = a.toLowerCase();
+  let c = 0;
+  let vowels = ["a", "e", "i", "o", "u"];
+  for (let value of str)
+    if (vowels.includes(value)) {
+      c++;
+    }
+  console.log(c);
+}
+findvowels01("ABICEpowugai");
