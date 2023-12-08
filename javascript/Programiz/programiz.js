@@ -145,37 +145,51 @@
 // palindrome
 // reverse number
 
-
 function palindrome() {
   // debugger;
   let input = 23;
-  let input01=input;
+  let input01 = input;
   let reverseinput = 0;
   while (input > 0) {
     let rem = input % 10;
     reverseinput = reverseinput * 10 + rem;
-    input = parseInt(input/10)
+    input = parseInt(input / 10);
   }
- 
 }
 palindrome();
 
-// ////
-// function reverseNumber(num) {
-//   let reversed = '';
-//   const numStr = num.toString();
+// Anagram
 
-//   for (let i = numStr.length - 1; i >= 0; i--) {
-//     reversed += numStr[i];
-//   }
+function Anagram(a, b) {
+  if (a.length === b.length) {
+    let a1 = a.toLowerCase();
+    let b1 = b.toLowerCase();
+    let a2 = a1.split("");
+    let b2 = b1.split("");
+let c=0
+    for (let i = 0; i < a.length; i++) {
+      for (let j = 0; j < b.length; j++)
+        if (a2[i] === b2[j]) {
+          c++;
+        }
+    }
+    if(c===b2.length)
+  {
+    console.log("Anagram");
+  }else{
+    console.log(" Not Anagram");
 
-//   return parseInt(reversed, 10); // Convert the reversed string back to a number
-// }
+  }
+  }
+  else{
+    console.log(" Not Anagram");
 
-// const reversedNumber = reverseNumber(1234);
-// console.log(  reversedNumber ); // Output: 54321
+  }
+  
+}
 
-// ///
+
+Anagram("anil", "lina");
 
 // let input="hello word"
 
