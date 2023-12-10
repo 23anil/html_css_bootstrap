@@ -5,7 +5,7 @@ let promise1 = new Promise((resolve) => {
 });
 
 let promise2 = new Promise((resolve) => {
-  fetch("https://jsonplaceholder.typicode.com/todos")
+  fetch("https://jsonplacholder.typicode.com/todos")
     .then((run) => run.json())
     .then((data) => resolve(data));
 });

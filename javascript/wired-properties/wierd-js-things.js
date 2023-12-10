@@ -37,6 +37,6 @@
       console.log("***************");
 
       console.log("true" == "false");
-      console.log(!!"false" === !!123);
+      console.log(!"false" ===!123);
       console.log(!!"Hello" == !!"world");
  

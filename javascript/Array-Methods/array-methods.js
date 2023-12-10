@@ -140,9 +140,10 @@ var nums01 = [10, 30, 27, 15, 58, 44, 67];
 
 console.log("sort");
 
-var sort = nums01.sort((a, b) => b - a);
+var sort = nums01.sort((a, b) => a-b);
 
-console.log(sort);
+// console.log(sort);
+console.log(nums01);
 
 console.log("******===========********");
 console.log("toString()");

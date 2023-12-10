@@ -23,8 +23,6 @@ loginbtn.addEventListener("click", function (event) {
   let sub2 = subject2.checked;
   let sub3 = subject3.checked;
 
-let submitedform;
-
   let isvalidusername = validateusername(username);
   let isvalidpassword = validatepassword(password);
   let isvalidemail = validateemail(email);
