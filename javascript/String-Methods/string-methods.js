@@ -9,7 +9,8 @@ console.log("toLowerCase : ", str.toLowerCase()); // String convert in all Lower
 console.log("1)slice : ", str.slice(5, 12)); // extracts a part of a string range(5-12)
 console.log("2)slice : ", str.slice(5, -10)); // Not working 5(16-10)
 console.log("concat :", str2.concat(" ", str3));
-console.log("substring : ", str.substring(0,-5));
+console.log("substring : ", str.substring(10,-5)); // 2nd value only accept nagetive value
+
 console.log("substr : ", str.substr(0, 13));
 console.log("concat : ", str1.concat(" Anil"));
 console.log("replace : ", str.replace("g", "p"));

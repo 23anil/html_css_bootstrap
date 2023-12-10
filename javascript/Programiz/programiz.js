@@ -97,22 +97,20 @@
 //     let str = "";
 //     for (let j = 0; j < nums[i].length; j++) {
 //       if (j == 1) {
-//         str += nums[i][j].toLocaleUpperCase();
+//         str += nums[i][j].toUpperCase();
 //       }
 //       str += nums[i][j];
 //     }
 //     copy[i] = str;
 //   }
-
 //   console.log(copy);
 // }
-
-// let fruits = ["apple", "mango", "orange"];
+// let fruits = ["apple", "mango", "orange","banana"];
 // csc(fruits);
 
 // merge and find without duplicates & with duplicates elements array
 
-// let add = [1, 2, 3, 4, 5, 1];
+// let add = [1, 2, 3, 4, 5, 1,2];
 // let nums01 = [2, 6, 4];
 
 // let nums02 = [...add, ...nums01];
@@ -140,23 +138,25 @@
 // console.log("without_duplicates");
 // console.log(without_duplicates);
 // console.log("duplicates");
+// console.log(...new Set(duplicates));
 // console.log(duplicates);
+
 
 // palindrome
 // reverse number
 
-function palindrome() {
-  // debugger;
-  let input = 23;
-  let input01 = input;
-  let reverseinput = 0;
-  while (input > 0) {
-    let rem = input % 10;
-    reverseinput = reverseinput * 10 + rem;
-    input = parseInt(input / 10);
-  }
-}
-palindrome();
+// function palindrome() {
+//   // debugger;
+//   let input = 23;
+//   let input01 = input;
+//   let reverseinput = 0;
+//   while (input > 0) {
+//     let rem = input % 10;
+//     reverseinput = reverseinput * 10 + rem;
+//     input = parseInt(input / 10);
+//   }
+// }
+// palindrome();
 
 // Anagram
 
@@ -199,34 +199,43 @@ palindrome();
 
 // count vowels 
 
-function findvowels(a) {
-  let vowels = a.toLowerCase();
-  let c = 0;
-  for (let i = 0; i < vowels.length; i++) {
-    if (
-      vowels[i] === "a" ||
-      vowels[i] === "e" ||
-      vowels[i] === "i" ||
-      vowels[i] === "o" ||
-      vowels[i] === "u"
-    ) {
-      c++;
-    }
-  }
-  console.log(c);
-}
-findvowels("ABICEpowuga");
+// function findvowels(a) {
+//   let vowels = a.toLowerCase();
+//   let c = 0;
+//   for (let i = 0; i < vowels.length; i++) {
+//     if (
+//       vowels[i] === "a" ||
+//       vowels[i] === "e" ||
+//       vowels[i] === "i" ||
+//       vowels[i] === "o" ||
+//       vowels[i] === "u"
+//     ) {
+//       c++;
+//     }
+//   }
+//   console.log(c);
+// }
+// findvowels("ABICEpowuga");
 
 // example02
 
-function findvowels01(a) {
-  let str = a.toLowerCase();
-  let c = 0;
-  let vowels = ["a", "e", "i", "o", "u"];
-  for (let value of str)
-    if (vowels.includes(value)) {
-      c++;
-    }
-  console.log(c);
-}
-findvowels01("ABICEpowugai");
+// function findvowels01(a) {
+//   let str = a.toLowerCase();
+//   let c = 0;
+//   let vowels = ["a", "e", "i", "o", "u"];
+//   for (let value of str)
+//     if (vowels.includes(value)) {
+//       c++;
+//     }
+//   console.log(c);
+// }
+// findvowels01("ABICEpowugai");
+
+let a=1; b=1
+
+ a++ + ++a+a-- + ++a+b+++a++
+ 
+ console.log(a);
+
+
+
