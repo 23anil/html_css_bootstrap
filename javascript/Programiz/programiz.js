@@ -92,7 +92,6 @@
 
 // function csc(nums) {
 //   let copy = [];
-
 //   for (let i = 0; i < nums.length; i++) {
 //     let str = "";
 //     for (let j = 0; j < nums[i].length; j++) {
@@ -140,7 +139,6 @@
 // console.log("duplicates");
 // console.log(...new Set(duplicates));
 // console.log(duplicates);
-
 
 // palindrome
 // reverse number
@@ -197,7 +195,7 @@
 //   console.log(split[i]);
 // }
 
-// count vowels 
+// count vowels
 
 // function findvowels(a) {
 //   let vowels = a.toLowerCase();
@@ -231,11 +229,38 @@
 // }
 // findvowels01("ABICEpowugai");
 
-let a=1; b=1
+// let a=1; b=1
 
- a++ + ++a+a-- + ++a+b+++a++
- 
- console.log(a);
+//  let c=a++ + ++a+a-- + ++a+b+++a++
 
+//  console.log(a);
+//  console.log(b);
+//  console.log(c);
 
+// Amstrong
 
+let n = 153;
+let n1 = n;
+let copy = n;
+
+let length = 0;
+
+let arm = 0;
+while (n > 0) {
+  n = parseInt(n / 10);
+  length++;
+}
+while (n1 != 0) {
+  let rem = n1 % 10;
+  let mul = 1;
+  for (let i = 1; i <= length; i++) {
+    mul = mul * rem;
+  }
+  n1 = parseInt(n1 / 10);
+  arm = mul + arm;
+}
+if (copy === arm) {
+  console.log(`${arm} is Amstrong Number`);
+} else {
+  console.log(`${arm} is Not Amstrong Number`);
+}

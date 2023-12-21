@@ -8,7 +8,7 @@
 
 
 let excution= async()=>{
-    try{
+   
 let data= await fetch("https://jsonplaceholder.typicode.com/users");
 let retrive= await data.json();
 // console.log(retrive);
@@ -19,11 +19,7 @@ retrive.forEach(value => {
 });
 li+=`</ul>`
 document.getElementById("test").innerHTML=li
-}
 
-catch(error){
-console.log(error);
-}
 
 }
 excution();
