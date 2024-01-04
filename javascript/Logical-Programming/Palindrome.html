@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome Program</title>
+</head>
+<body>
+  <script>
+function palindrome() {
+  // debugger;
+  let input = 23;
+  let input01 = input;
+  let reverseinput = 0;
+  while (input > 0) {
+    let rem = input % 10;
+    reverseinput = reverseinput * 10 + rem;
+    input = parseInt(input / 10);
+  }
+if(reverseinput===input01){
+    console.log(`${input01} is palindrome Number`);
+}
+else{
+    console.log(`${input01} is Not palindrome Number`);
+}
+}
+palindrome();
+  </script>
+</body>
+</html>

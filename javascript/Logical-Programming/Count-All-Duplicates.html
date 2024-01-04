@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Count-All-Duplicates</title>
+  </head>
+  <body>
+    <script>
+      let find = ["a", "b", "c", "a", "b","d","e","f","e"];
+      let count = [];
+      let char = [];
+      // let charCount={}
+      let k=0;
+      for (let i = 0; i < find.length; i++) {
+        let c = 1;
+        for (let j = i + 1; j < find.length; j++) {
+          if (find[i] === find[j]) {
+            c++;
+          }
+        }
+        if (char.indexOf(find[i]) === -1) {
+          char.push(find[i]);
+          count[k]=c;
+          // console.log(find[i]);
+          // charCount.find[i];
+          k++;
+        }
+      }
+      // console.log(charCount);
+      for(let i in char){
+console.log(char[i],"--",count[i]);
+
+      }
+     
+
+    </script>
+  </body>
+</html>
