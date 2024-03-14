@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Removing duplicates from String</title>
+  </head>
+  <body>
+    <script>
+      let str = "Anil Kumar K R";
+      let copystr = str.toLocaleLowerCase();
+      console.log(copystr);
+      let index = "";
+      for (let i = 0; i < copystr.length; i++) {
+        if (copystr.indexOf(str[i]) === -1) {
+            index=str[i];
+        }
+      }
+      console.log(index);
+    </script>
+  </body>
+</html>

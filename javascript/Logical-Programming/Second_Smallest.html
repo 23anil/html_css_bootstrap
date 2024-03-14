@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Second_Smallest_Number</title>
+  </head>
+  <body>
+    <script>
+      let data = [-5,8, 1, -10,5, 9, 10,-1,-3];
+      let Small1st = 100;
+      let small2nd = 100;
+      for (let i = 0; i < data.length; i++) {
+        if (Small1st > data[i]) {
+          small2nd = Small1st;
+          Small1st = data[i];
+        } else if (small2nd > data[i] && Small1st < data[i]) {
+          small2nd = data[i];
+        }
+      }
+      console.log("Small1st",Small1st);
+      console.log("small2nd",small2nd);
+    </script>
+  </body>
+</html>

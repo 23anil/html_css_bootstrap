@@ -1,37 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anagram Program</title>
-</head>
-<body>
-    <script> 
-// Anagram
-function Anagram(a, b) {
-  if (a.length === b.length) {
-    let a1 = a.toLowerCase();
-    let b1 = b.toLowerCase();
-    let a2 = a1.split("");
-    let b2 = b1.split("");
-let c=0
-    for (let i = 0; i < a.length; i++) {
-      for (let j = 0; j < b.length; j++)
-        if (a2[i] === b2[j]) {
-          c++;
-        }
-    }
-    if(c===b2.length)
-  {
-    console.log(`'${a}' string is Anagram`);
-  }else{
-    console.log(`'${a}' string is Not Anagram`);  }
-  }
-  else{
-    console.log(`'${a}' string is Not Anagram`); 
-  }
-}
-Anagram("anil", "linna");
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // let data = [1, 2, 3,1,2];
+      // let copy = [];
+      // let dup = [];
+      // for (let val of data) {
+      //   if (copy.indexOf(val) === -1) {
+      //     copy.push(val);
+      //   } else {
+      //     dup.push(val);
+      //   }
+      // }
+      // if (copy.length === data.length) {
+      //   console.log(-1);
+      // } else {
+      //   console.log(...new Set(dup));
+      // }
+     console.log("10"+1);
     </script>
-</body>
+  </body>
 </html>

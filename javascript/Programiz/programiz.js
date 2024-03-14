@@ -4,17 +4,18 @@
 
 // function CDA(duplicateArray) {
 //   let da = [];
-//   for (let num in duplicateArray) {
-//     for (let num1 in duplicateArray) {
-//       if (num === num1) {
+//   for (let i=0;i<duplicateArray.length;i++) {
+//     for (let j=0;j<duplicateArray.length;j++) {
+//       if (i === j) {
 //         continue;
 //       } else {
-//         if (duplicateArray[num] === duplicateArray[num1]) {
-//           da.push(duplicateArray[num]);
+//         if (duplicateArray[i] === duplicateArray[j]) {
+//           da.push(duplicateArray[i]);
 //         }
 //       }
 //     }
 //   }
+//   console.log(da);
 //   console.log(...new Set(da));
 // }
 // let ty = [1, 2, 3, 4, 5, 1, 2, 3, 6];
@@ -44,6 +45,8 @@
 // let ty01 = [1, 2, 3, 4, 5, 1, 2, 3, 6];
 // CWDA(ty01);
 
+// --------------------------------------------------------
+
 // <!-- Find Duplicates string-->
 
 // console.log("3) Find Duplicates String");
@@ -60,52 +63,49 @@
 //   }
 //   console.log(ds01);
 // }
-// CDS("abcdacbed");
+// CDS("abcdacbeda");
+
+// function CDS(duplicateString) {
+//   let ds = duplicateString.toUpperCase();
+//   let ds01 = ds.split("");
+
+//   let ds02 = [];
+//   for (let i = 0; i < ds01.length; i++) {
+//     let data=ds01[i]
+//     console.log(data);
+//     if (ds02[data] === -1) {
+//       // ds01 = ds01 + ds[i];
+//       ds02.push(ds01[i]);
+//     }
+//   }
+//   let sortds=[...new Set(ds02)]
+//   console.log(sortds);
+// }
+// CDS("abcdacbeda");
 
 // Find Without Duplicates String
 
 // console.log("4) Find Without Duplicates String");
 
-// function CWDS(duplicateString) {
-//   let ds = duplicateString.toUpperCase();
-//   let ds01 = ds.split("");
+function CWDS(duplicateString) {
+  let ds = duplicateString.toUpperCase();
+  let ds01 = ds.split("");
 
-//   for (let i = 0; i < ds01.length; i++) {
-//     for (let j = i + 1; j < ds01.length; j++) {
-//       if (ds01[i] === ds01[j]) {
-//         ds01[i] = 0;
-//         ds01[j] = 0;
-//       }
-//     }
-//   }
-//   for (let k = 0; k < ds01.length; k++) {
-//     if (ds01[k] != 0) {
-//       console.log(ds01[k]);
-//     }
-//   }
-// }
-// CWDS("abcdabce");
-
-// Change only second character to uppercase String
-
-// console.log("5) Change only second character to uppercase String");
-
-// function csc(nums) {
-//   let copy = [];
-//   for (let i = 0; i < nums.length; i++) {
-//     let str = "";
-//     for (let j = 0; j < nums[i].length; j++) {
-//       if (j == 1) {
-//         str += nums[i][j].toUpperCase();
-//       }
-//       str += nums[i][j];
-//     }
-//     copy[i] = str;
-//   }
-//   console.log(copy);
-// }
-// let fruits = ["apple", "mango", "orange","banana"];
-// csc(fruits);
+  for (let i = 0; i < ds01.length; i++) {
+    for (let j = i + 1; j < ds01.length; j++) {
+      if (ds01[i] === ds01[j]) {
+        ds01[i] = 0;
+        ds01[j] = 0;
+      }
+    }
+  }
+  for (let k = 0; k < ds01.length; k++) {
+    if (ds01[k] != 0) {
+      console.log(ds01[k]);
+    }
+  }
+}
+CWDS("abcdabce");
 
 // merge and find without duplicates & with duplicates elements array
 
@@ -156,43 +156,18 @@
 // }
 // palindrome();
 
-// Anagram
-
-// function Anagram(a, b) {
-//   if (a.length === b.length) {
-//     let a1 = a.toLowerCase();
-//     let b1 = b.toLowerCase();
-//     let a2 = a1.split("");
-//     let b2 = b1.split("");
-// let c=0
-//     for (let i = 0; i < a.length; i++) {
-//       for (let j = 0; j < b.length; j++)
-//         if (a2[i] === b2[j]) {
-//           c++;
-//         }
-//     }
-//     if(c===b2.length)
-//   {
-//     console.log("Anagram");
-//   }else{
-//     console.log(" Not Anagram");
-//   }
-//   }
-//   else{
-//     console.log(" Not Anagram");
-
-//   }
-// }
-// Anagram("anil", "lina");
-
+ 
 // let input="hello word"
 
 // let split=input.split(" ")
 
 // console.log(split);
-
-// for(let i=split.length-1;i>=0;i++){
-//   console.log(split[i]);
+// for(let i=0;i<split.length;i++){
+//   let str=""
+// for(let j=split[i];j>=0;j--){
+// str+=split[j]
+// }
+// console.log(str);
 // }
 
 // count vowels
@@ -238,29 +213,28 @@
 //  console.log(c);
 
 // Amstrong
+// let n = 153;
+// let n1 = n;
+// let copy = n;
 
-let n = 153;
-let n1 = n;
-let copy = n;
+// let length = 0;
 
-let length = 0;
-
-let arm = 0;
-while (n > 0) {
-  n = parseInt(n / 10);
-  length++;
-}
-while (n1 != 0) {
-  let rem = n1 % 10;
-  let mul = 1;
-  for (let i = 1; i <= length; i++) {
-    mul = mul * rem;
-  }
-  n1 = parseInt(n1 / 10);
-  arm = mul + arm;
-}
-if (copy === arm) {
-  console.log(`${arm} is Amstrong Number`);
-} else {
-  console.log(`${arm} is Not Amstrong Number`);
-}
+// let arm = 0;
+// while (n > 0) {
+//   n = parseInt(n / 10);
+//   length++;
+// }
+// while (n1 != 0) {
+//   let rem = n1 % 10;
+//   let mul = 1;
+//   for (let i = 1; i <= length; i++) {
+//     mul = mul * rem;
+//   }
+//   n1 = parseInt(n1 / 10);
+//   arm = mul + arm;
+// }
+// if (copy === arm) {
+//   console.log(`${arm} is Amstrong Number`);
+// } else {
+//   console.log(`${arm} is Not Amstrong Number`);
+// }

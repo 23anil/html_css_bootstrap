@@ -45,24 +45,24 @@ console.log("class01", class01[1]);
 // let alltags=document.querySelectorAll("p")
 // console.log("alltags",alltags);
 
-// let randomcontent = document.getElementById("randomtext");
-// randomcontent.classList="style1";
+let randomcontent = document.getElementById("randomtext");
+randomcontent.className="style1";
 
-// console.log(randomcontent);
+console.log(randomcontent);
 
-// let changes=()=>{
-//     setTimeout(()=>{
-//         randomcontent.classList.add("style1")
-//     },0)
+let changes=()=>{
+    setTimeout(()=>{
+        randomcontent.classList.add("style1")
+    },0)
 
-//     setTimeout(()=>{
-//         randomcontent.classList.add("style2")
-//     },3000)
-//     setTimeout(()=>{
-//         randomcontent.classList.remove("style2")
-//     },6000)
-//     setTimeout(()=>{
-//         randomcontent.classList.add("style3")
-//     },9000)
-// }
-// changes();
+    setTimeout(()=>{
+        randomcontent.classList.add("style2")
+    },3000)
+    setTimeout(()=>{
+        randomcontent.classList.remove("style2")
+    },6000)
+    setTimeout(()=>{
+        randomcontent.classList.add("style3")
+    },9000)
+}
+changes();

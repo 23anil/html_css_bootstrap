@@ -7,11 +7,11 @@
   </head>
   <body>
     <script>
-      let find = ["a", "b", "c", "a", "b","d","e","f","e"];
+      let find = ["a", "b", "c", "a", "b", "d", "e", "f", "e"];
       let count = [];
       let char = [];
-      // let charCount={}
-      let k=0;
+      let charCount = {};
+      let k = 0;
       for (let i = 0; i < find.length; i++) {
         let c = 1;
         for (let j = i + 1; j < find.length; j++) {
@@ -21,19 +21,14 @@
         }
         if (char.indexOf(find[i]) === -1) {
           char.push(find[i]);
-          count[k]=c;
-          // console.log(find[i]);
-          // charCount.find[i];
+          count[k] = c;
           k++;
         }
       }
-      // console.log(charCount);
-      for(let i in char){
-console.log(char[i],"--",count[i]);
-
+      for (let i in char) {
+        charCount[char[i]]=count[i]
       }
-     
-
+      console.log(charCount);
     </script>
   </body>
 </html>

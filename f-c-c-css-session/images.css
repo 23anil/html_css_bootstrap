@@ -1,11 +1,11 @@
 body {
   min-height: 98vh;
   background-color: aliceblue;
-  /* background-image: url(bubbles.01.png),
+  background-image: url(bubbles.01.png),
     linear-gradient(to left, steelblue, lightgrey);
   background-repeat: repeat-y;
   background-position: left;
-  background-size: 10%, auto; */
+  background-size: 10%, auto;
   background: repeat-y right url(bubbles.01.png),
     no-repeat linear-gradient(to left, steelblue, lightgray);
 }
@@ -76,8 +76,6 @@ figcaption {
   padding-left: 25px;
   text-transform: uppercase;
   background-image: url(https://media.istockphoto.com/id/610041376/photo/beautiful-sunrise-over-the-sea.jpg?s=612x612&w=0&k=20&c=R3Tcc6HKc1ixPrBc7qXvXFCicm8jLMMlT99MfmchLNA=);
-
   -webkit-background-clip: text;
-
   color: rgba(0, 0, 0, 0.076);
 }

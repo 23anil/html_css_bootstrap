@@ -13,9 +13,14 @@ let fetchUser = async function () {
     let response = await fetch("https://jsonplaceholder.typicode.com/users");
     let data = await response.json();
     console.log(data);
+    let diplay = `<ul>`;
 
-    
-    //   console.log(await response.json());
+    data.map((val) => {
+      diplay += `<li>${val.name}</li>`;
+    });
+    diplay += `</ul>`;
+
+    document.getElementById("root").innerHTML = diplay;
   } catch (err) {
     console.log("error", err);
   }

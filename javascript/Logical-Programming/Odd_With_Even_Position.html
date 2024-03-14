@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WAP to swap numbers in odd with even position</title>
+  </head>
+  <body>
+    <script>
+      // ex. 123456 o/p: 214365
+
+      let number = 123456;
+   let reverse=0;
+   while (number>0) 
+   {
+    let rem=number%10;
+    reverse=reverse*10+rem;
+    number=parseInt(number/10);
+   }
+   let store;
+  while(reverse>0)
+  {
+    let rem=reverse%10;
+    console.log(rem);
+    reverse=parseInt(reverse/10);
+  }
+     
+    </script>
+  </body>
+</html>

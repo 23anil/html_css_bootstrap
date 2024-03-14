@@ -161,7 +161,7 @@ let properties = {
 
 let newobj = Object.create(person01, properties);
 
-console.log("name", newobj.name);
+console.log("name", newobj);
 
 console.log("***********************");
 console.log("Object.assign");

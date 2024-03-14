@@ -4,6 +4,7 @@ loginbtn.addEventListener("click", function (event) {
   event.preventDefault();
   let formdata = document.forms["formdata"];
 
+  // console.log(formdata);
   let username = formdata.username.value;
 
   let password = formdata.password.value;
