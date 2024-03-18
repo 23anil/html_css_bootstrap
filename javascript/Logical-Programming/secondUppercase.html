@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function csc(nums) {
+        for (let i = 0; i < nums.length; i++) {
+          let str = "";
+          for (let j = 0; j < nums[i].length - 1; j++) {
+            if (j === 1) {
+              str += nums[i][j].toUpperCase();
+            } else {
+              str += nums[i][j];
+            }
+          }
+          nums[i] = str;
+        }
+        console.log(nums);
+      }
+      csc(["apple", "orange", "banana"]);
+    </script>
+  </body>
+</html>

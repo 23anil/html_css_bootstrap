@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Polyfill ForEach Functions</title>
+  </head>
+  <body>
+    <script>
+      let data = [1, 2, 3, 5, 4];
+
+      Array.prototype.myforeach = function (callback) {
+        for (let i = 0; i < this.length; i++) {
+          callback(this[i], i, this);
+        }
+      };
+
+      data.myforeach((val) => {
+        console.log(val*2
+        );
+      });
+    </script>
+  </body>
+</html>

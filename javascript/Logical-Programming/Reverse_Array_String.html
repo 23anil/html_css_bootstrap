@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WAP to reverse an array / String</title>
+  </head>
+  <body>
+    <script>
+//  *************Reverse Array ************
+      let numbers = [1, 2, 3, 4, 5];
+      // ----------use inbilt method()--------------
+      // numbers.reverse();
+      // console.log(numbers);
+
+      let reverse = [];
+      for (let i = numbers.length - 1; i >= 0; i--) {
+        reverse.push(numbers[i]);
+      }
+      console.log(reverse);
+
+    //   *************Reverse String ************
+
+    let Str="This Time Is Very Important";
+
+    let copyStr="";
+    for (let i = Str.length-1; i >=0; i--) {
+   copyStr+=Str[i]
+        
+    }
+    console.log(Str);
+    console.log(copyStr);
+
+    </script>
+  </body>
+</html>

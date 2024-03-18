@@ -1,0 +1,122 @@
+.logo {
+    margin-left: 245px;
+    font-size: 18px;
+    font-weight: 650;
+    margin-top: 23px;
+}
+
+.navbar01 {
+    width: 465px;
+    margin-left: 18px;
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 7px;
+    margin-bottom: -5px;
+}
+
+.navbar-hover:hover {
+    color: rgb(39, 173, 250);
+    border-bottom: 2px solid rgb(39, 173, 250);
+}
+
+.row-01 {
+    margin-top: 105px;
+}
+
+.row-02 {
+    height: 510px;
+    background-color: rgb(241, 252, 252);
+}
+
+.badge-01 {
+    margin-top: 25px;
+    margin-left: 620px;
+    background-color: rgb(214, 247, 247);
+    color: rgb(39, 173, 250);
+}
+
+.row-03 {
+    height: 548px;
+    width: 672px;
+    margin-left: 342px;
+}
+.row-05 {
+    margin-top: 3px;
+    margin-left: -5px;
+    height: 3px;
+    width: 163px;
+}
+
+.card01 {
+    margin-top: 8px;
+    font-weight: 650;
+}
+
+.card02 {
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.heading {
+    margin-top: -350px;
+    margin-left: 585px;
+    font-size: 12px;
+}
+
+.sub-heading02 {
+    padding-left: 10px;
+}
+
+.sub-heading03 {
+    padding-left: 10px;
+}
+
+.sub-heading04 {
+    padding-left: 10px;
+}
+
+.card-03 {
+    width: 280px;
+    height: 200px;
+}
+
+.card-04 {
+    width: 280px;
+    height: 200px;
+    margin-left: -5px !important;
+}
+
+.card-05 {
+    width: 280px;
+    height: 200px;
+    margin-left: -10px !important;
+}
+
+.row-04 {
+    margin-top: -320px;
+    margin-left: 215px;
+    height: 210px;
+    width: 895px;
+}
+
+.logo-02 {
+    height: 50px;
+    width: 50px;
+    margin-top: -55px;
+    margin-left: 111px;
+}
+
+.image-03 {
+    width: 100%;
+    height: 100%;
+}
+
+.image-04 {
+    width: 100%;
+    height: 100%;
+}
+
+.image-05 {
+    width: 100%;
+    height: 100%;
+}

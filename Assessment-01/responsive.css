@@ -1,0 +1,133 @@
+.row-02 {
+    height: 35px;
+    background-color: rgb(39, 173, 250);
+    margin: 100px 0px -18px 0px;
+}
+
+.row-03 {
+    height: 50px;
+    width: 526px;
+    margin-left: 690px;
+    margin-top: -75px;
+}
+
+.navbar01 {
+    font-weight: 400;
+    font-size: 40px;
+}
+
+
+.logo {
+    height: 63px;
+    width: 147px;
+}
+
+.heading2 {
+    margin-top: 30px;
+    margin-left: 140px;
+    font-size: 27px;
+    font-weight: 600
+}
+
+.row-04 {
+    height: 495px !important;
+    margin-top: 6px;
+    background-color: rgb(241, 252, 252);
+}
+
+.navbar-01 {
+    font-size: 14px;
+}
+
+.cardheading {
+    font-weight: 700;
+}
+
+.card-01 {
+    margin-top: 165px;
+    margin-left: 130px;
+}
+
+#website-name {
+    margin-left: 140px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+
+}
+
+#phone-number {
+    margin-top: 7px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.navbarhover:hover {
+    color: rgb(39, 173, 250);
+    border-bottom: 2px solid rgb(39, 173, 250);
+}
+
+.imagediv-06 {
+    height: 37px;
+    width: 38px;
+    margin-left: 135px;
+    margin-top: -38px;
+    border-radius: 50%;
+}
+
+.video-heading {
+    margin: -32px 0px 0px 175px;
+}
+
+.fontawesome-play {
+    font-size: 30px;
+    color: rgb(22, 129, 216);
+    margin: -43px 0px 0px 133px;
+}
+
+.font-awesome-envelope {
+    height: 20px;
+    width: 30px;
+    margin: 11px 0px 0px 132px;
+    font-size: 10px;
+}
+
+.envelope-name {
+    font-size: 11px;
+    color: rgb(252, 250, 250);
+    margin: -15px 0px 0px 15px;
+}
+
+.font-awesome-mobile {
+    height: 20px;
+    width: 119px;
+    margin: 12px 0px 0px 120px;
+    font-size: 10px;
+}
+
+.mobile-number {
+    font-size: 11px;
+    color: rgb(250, 249, 249);
+    margin: -15px 0px 0px 15px;
+}
+
+.social-media-icons {
+    height: 20px;
+    width: 145px;
+    font-size: 12px;
+    margin: 9px 0px 0px 675px;
+}
+
+.facebook {
+    margin-left: 10px;
+}
+
+.instagram {
+    margin-left: 10px;
+}
+
+.linkedin {
+    margin-left: 10px;
+}

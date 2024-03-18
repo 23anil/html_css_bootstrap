@@ -1,0 +1,28 @@
+.box {
+    background-color: lightcyan;
+    height: 300px;
+margin-right: 20px;
+
+}
+
+.box1 {
+    background-color: beige;
+}
+
+.box2 {
+    background-color: lightyellow;
+}
+.box3 {
+    background-color: lightskyblue;
+    height: 300px;
+margin-right: 20px;
+
+}
+
+.box4 {
+    background-color: rgb(182, 214, 255);
+}
+
+.box5 {
+    background-color: rgb(219, 166, 166);
+}

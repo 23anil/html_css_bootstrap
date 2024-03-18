@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login page</title>
+    <style>
+      ::placeholder {
+        color: red;
+        font-size: 17px;
+        background-color: orange;
+        word-spacing: 0px;
+        letter-spacing: 10px;
+        text-decoration: line-through;
+        /* text-transform: uppercase; */
+        vertical-align: super;
+        /* clear: right; */
+      }
+    </style>
+  </head>
+
+  <body>
+    <table>
+      <tr>
+        <td>
+          <h4>Login form</h4>
+        </td>
+      </tr>
+      <form action="">
+        <tr>
+          <td>
+            <label for="">Username<span style="color: red">*</span></label>
+          </td>
+          <td><input type="text" placeholder="enter your name" /></td>
+        </tr>
+        <tr>
+          <td><label for="">Password</label></td>
+          <td><input type="Password" placeholder="enter your Password" /></td>
+        </tr>
+        <tr>
+          <td>
+            <label for=""
+              >City of <br />
+              Employement</label
+            >
+          </td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td><label>Location</label></td>
+          <td>
+            <select>
+              <option value="">-Select-</option>
+              <option value="Bangalore">Bangalore</option>
+              <option value="Mangalore">Mangalore</option>
+              <option value="Davangere">Davangere</option>
+              <option value="Tumakuru">Tumakuru</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label>Please Specify<br />your role</label>
+          </td>
+
+          <td>
+            <input type="radio" value="Admin" name="role" />
+            <label>Admin</label>
+            <br />
+            <input type="radio" value="Engineer" name="role" />
+            <label>Engineer</label>
+            <br />
+            <input type="radio" value="Manager" name="role" />
+            <label>Manager</label>
+            <br />
+            <input type="radio" value="Guest" name="role" />
+            <label>Guest</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label>Single Sign-on <br />to the following</label>
+          </td>
+
+          <td>
+            <input type="checkbox" value="Mail" />
+            <label>Mail</label>
+            <br />
+            <input type="checkbox" value="Payroll" />
+            <label>Payroll</label>
+            <br />
+            <input type="checkbox" value="Self-service" />
+            <label>Self-service</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="">Address</label>
+          </td>
+          <td>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button type="submit">Login</button>
+          </td>
+          <td>
+            <!-- <input type="reset"> -->
+            <button type="reset">Reset</button>
+          </td>
+        </tr>
+      </form>
+    </table>
+  </body>
+</html>

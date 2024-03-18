@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Change Background Color</title>
+  </head>
+  <body id="root">
+    <script>
+      let colors = ["red", "blue", "green", "orange"];
+      let j = 0;
+      setInterval(function () {
+        document.getElementById("root").style.backgroundColor = colors[j];;
+        if (j === colors.length - 1) {
+          j = -1;
+        }
+        j++;
+      }, 1000);
+    </script>
+  </body>
+</html>

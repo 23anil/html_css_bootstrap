@@ -1,0 +1,116 @@
+.row-00{
+    height: 1px;
+    margin-top: 140px;
+    background-color: black;
+}
+
+.logo {
+    margin-left: 245px;
+    font-size: 18px;
+    font-weight: 650;
+    margin-top: 23px;
+}
+
+.navbar01 {
+    width: 465px;
+    margin-left: 18px;
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 7px;
+    margin-bottom: -5px;
+}
+.navbar-hover:hover{
+    color: rgb(39, 173, 250);
+    border-bottom: 2px solid rgb(39, 173, 250);
+}
+
+.row-01 {
+    margin-top: -17px;
+}
+
+.row-02 {
+    height: 490px;
+    background-color: rgb(241, 252, 252);
+}
+
+.badge-01 {
+    margin-left: 635px;
+    background-color: rgb(214, 247, 247);
+    color: rgb(39, 173, 250);
+}
+
+.row-03 {
+    height: 455px;
+    width: 672px;
+    margin-left: 342px;
+}
+
+.card01 {
+    font-weight: 640;
+}
+
+.card02 {
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+}
+
+.imagebox {
+    width: 425px;
+    height: 338px;
+    margin-top: -360px;
+    margin-left: 175px;
+}
+.discriptiopn-heading{
+    font-size: 18px;
+}
+.discriptiopn-01{
+    font-size: 12px;
+}
+.icon-background{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    margin: -3px 0px 0px -23px;
+}
+.icon-01{
+    font-size: 20px;
+    padding: 10px 0px 0px 11px;
+}
+.discriptiopn-sub-heading01{
+    margin-left: 50px;
+    font-size: 16px;
+}
+.discriptiopn-02{
+    font-size: 10px;
+    margin-left: 50px;
+    margin-top: -15px;
+}
+.discriptiopn-sub-heading02{
+    margin-left: 50px;
+    font-size: 16px;
+    margin-top: -7px;
+}
+.discriptiopn-03{
+    font-size: 10px;
+    margin-left: 50px;
+    margin-top: -15px;
+}
+.discriptiopnbox{
+    width: 531px;
+    height: 350px;
+    margin-top: -372px;
+    margin-left: 595px;
+    position: relative;
+}
+.row-04{
+height: 1.4px;
+margin-top: 7px;
+background-color: black;
+}

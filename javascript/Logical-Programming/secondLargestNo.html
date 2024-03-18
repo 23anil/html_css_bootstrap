@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fund-Second-Larges-Number</title>
+</head>
+<body>
+    <script>
+      console.log(" 03)WAP to find Second Largest");
+      var array = [55, 10, 2, 3, 45, 16];
+      var firstLarge = 0;
+      var secondLarge = 0;
+      for (var i = 0; i < array.length; i++) {
+        if (array[i] > firstLarge) {
+          secondLarge = firstLarge;
+          firstLarge = array[i];
+        }
+        if (array[i] < firstLarge && array[i] > secondLarge) {
+          secondLarge = array[i];
+        }
+      }
+      console.log(array);
+      console.log("secondLarge : " + secondLarge);
+    </script>
+</body>
+</html>

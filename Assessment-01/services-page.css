@@ -1,0 +1,191 @@
+.headingDiv {
+    height: 90px;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 65px;
+    font-weight: 600;
+}
+.logo {
+    margin-left: 245px;
+    font-size: 18px;
+    font-weight: 650;
+    margin-top: 23px;
+}
+
+.navbar01 {
+    width: 465px;
+    margin-left: 18px;
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 7px;
+    margin-bottom: -5px;
+}
+
+.navbar-hover:hover {
+    color: rgb(39, 173, 250);
+    border-bottom: 2px solid rgb(39, 173, 250);
+}
+
+.row-01 {
+    margin-top: 90px;
+}
+
+.row-02 {
+    height: 585px;
+    background-color: rgb(241, 252, 252);
+}
+
+.badge-01 {
+    margin-top: 8px;
+    margin-left: 635px;
+    background-color: rgb(214, 247, 247);
+    color: rgb(39, 173, 250);
+}
+
+.row-03 {
+    height: 548px;
+    width: 672px;
+    margin-left: 342px;
+}
+
+.card01 {
+    font-weight: 650;
+}
+
+.card02 {
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.card-03 {
+    width: 280px;
+    height: 200px;
+    padding: 115px 5px 5px 5px;
+}
+.card-04 {
+    width: 280px;
+    height: 200px;
+    padding: 115px 5px 5px 5px;
+    margin-left:-40px!important;
+}
+.card-05 {
+    width: 280px;
+    height: 200px;
+    padding: 115px 5px 5px 5px;
+    margin-left:-81px !important;
+}
+
+.row-04 {
+    margin-top: -457px;
+    margin-left: 193px;
+    height: 210px;
+    width: 1010px;
+    background-color: rgb(241, 252, 252);
+}
+
+.discription-01 {
+    font-size: 11px;
+}
+.row-05{
+    margin-top: 6px;
+    margin-left: 193px;
+    height: 210px;
+    width: 895px;
+    background-color: rgb(241, 252, 252);
+}
+.card-06 {
+    width: 280px;
+    height: 200px;
+    padding: 115px 5px 5px 5px;
+  
+}
+.card-07 {
+    width: 280px;
+    height: 200px;
+    padding: 115px 5px 5px 5px;
+    margin-left:-2px;
+}
+.card-08 {
+    width: 280px;
+    height: 200px;
+    padding: 115px 5px 5px 5px;
+    margin-left:-3px;
+}
+.image01 {
+    padding: 6px 0px 15px 0px;
+    height: 70%;
+    width: 80%;
+}
+.imagediv-01 {
+    height: 37px;
+    width: 46px;
+    margin-left: 110px;
+    margin-top: -43px;
+    border: 1px solid lightgrey;
+  background-color: rgb(233, 232, 232);
+}
+.image02 {
+    padding: 6px 0px 15px 0px;
+    height: 70%;
+    width: 80%;
+}
+.imagediv-02 {
+    height: 37px;
+    width: 46px;
+    margin-left: 110px;
+    margin-top: -43px;
+    border: 1px solid lightgrey;
+    background-color: rgb(233, 232, 232);
+}
+.image03 {
+    padding: 6px 0px 15px 0px;
+    height: 70%;
+    width: 80%;
+}
+.imagediv-03 {
+    height: 37px;
+    width: 46px;
+    margin-left: 110px;
+    margin-top: -43px;
+    border: 1px solid lightgrey;
+background-color: rgb(233, 232, 232);
+}
+.image04 {
+    padding: 6px 0px 15px 0px;
+    height: 70%;
+    width: 80%;
+}
+.imagediv-04 {
+    height: 37px;
+    width: 46px;
+    margin-left: 110px;
+    margin-top: -43px;
+    border: 1px solid lightgrey;
+    background-color: rgb(233, 232, 232);
+}
+.image05 {
+    padding: 6px 0px 15px 0px;
+    height: 70%;
+    width: 80%;
+}
+.imagediv-05 {
+    height: 37px;
+    width: 46px;
+    margin-left: 110px;
+    margin-top: -43px;
+    border: 1px solid lightgrey;
+    background-color: rgb(233, 232, 232);
+}
+.image06 {
+    padding: 6px 0px 15px 0px;
+    height: 70%;
+    width: 80%;
+}
+.imagediv-06 {
+    height: 37px;
+    width: 46px;
+    margin-left: 110px;
+    margin-top: -43px;
+    border: 1px solid lightgrey;
+    background-color: rgb(233, 232, 232);
+}

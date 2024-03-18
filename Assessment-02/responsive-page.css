@@ -1,0 +1,107 @@
+.row-01 {
+    height: 35px;
+    width: 90px;
+    margin:120px 0px 0px 160px;
+}
+
+.logo {
+    height: 35px;
+    width: 70px;
+    font-size: 18px;
+    font-weight: 650;
+    margin-top: 6px;
+}
+
+.navbar-hover:hover {
+
+    color: black;
+    border-bottom: 2px solid red;
+}
+
+.navbar-hover01 {
+    margin-left: 28px;  
+}
+
+.navbar-01 {
+    height: 38px;
+    width: 720px;
+    margin:-9px 0px 0px 85px;
+    font-size: 12px;
+    font-weight: 600;
+  
+}
+
+.badge-01 {
+    height: 30px;
+    width: 100px;
+    margin:4px 0px 0px 780px;
+    padding-top: 8px;
+}
+
+.row-02 {
+    height: 500px;
+    margin-top: 13px;
+    background-color: rgb(248, 247, 247);
+}
+
+.card01 {
+    margin: 118px 0px 0px 120px;
+    height: 285px;
+    width: 450px;
+    background-color: rgb(248, 247, 247);
+}
+
+.card-heading {
+    font-family: cursive;
+    font-size: 28px;
+}
+
+.badge-02 {
+    height: 30px;
+    width: 125px;
+    margin-top: 20px;
+    padding-top: 8px;
+}
+
+.imagediv-01 {
+    height: 37px;
+    width: 46px;
+    margin:-31px 0px 0px 160px;
+    border: 1px solid rgb(233, 17, 17);
+    border-radius: 50%
+}
+
+.image01 {
+    padding: 5px 0px 15px 0px;
+    height: 50%;
+    width: 50%;
+}
+.badge-03 {
+   margin: -46px 0px 0px 210px;
+}
+.card02{
+    height: 446px;
+    width: 485px;
+    border-radius: 50%;
+    margin: 46px 0px 0px 311px;
+    background-color: rgb(248, 247, 247);
+}
+.image01{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(248, 247, 247);
+}
+.image06 {
+    padding: 5px 0px 15px 0px;
+    height: 125%;
+    width: 100%;
+}
+.imagediv-06 {
+    height: 37px;
+    width: 38px;
+    margin:-33px 0px 0px 135px;
+    border-radius: 50%;
+}
+.video-heading{
+    margin: -44px 0px 0px 175px;
+}

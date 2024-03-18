@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Count-All-Digits</title>
+  </head>
+  <body>
+    <script>
+      let str = "indiA need 56 runs in 34 balls";
+      console.log(str);
+      let digitsAdd = 0;
+      for (let i = 0; i < str.length; i++) {
+        if (str.charCodeAt(i) >= 48 && str.charCodeAt(i) <= 57) {
+          digitsAdd = digitsAdd + (str.charCodeAt(i) - 48);
+        }
+      }
+      console.log(digitsAdd);
+    </script>
+  </body>
+</html>

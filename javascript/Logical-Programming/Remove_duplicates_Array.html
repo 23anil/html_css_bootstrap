@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Removing duplicates from array</title>
+</head>
+<body>
+    <script>
+        let data=[1,2,6,3,1,2,4,5,4]
+        let remove=[]
+        for(let i=0;i<data.length;i++)
+        {
+            if(remove.indexOf(data[i]) ===-1)
+            {
+                remove.push(data[i])
+            }
+        }
+        console.log(remove);
+    </script>
+</body>
+</html>

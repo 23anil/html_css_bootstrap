@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(145, 72, 213) !important;
+}
+.namediv {
+  color: white;
+  height: auto;
+  width: 40%;
+  font-size: 1.5vw;
+  margin: auto;
+}
+.namediv h1 {
+  line-height: 150%;
+}
+.namediv input {
+  height: 30%;
+  width: 100%;
+  font-size: 200%;
+  border-radius: 6px;
+  border: 0px solid white;
+}
+
+.maindiv {
+  width: 95vw;
+  background-color: antiquewhite;
+  height: auto;
+  margin-top: 2% !important;
+  margin: auto;
+  border-radius: 3px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+}
+.button{
+    width: 16rem;
+    border-radius: 0px !important;
+  box-shadow: 0px 3px 0px 0px black;
+}
+
+.cards{
+    margin-top: 10px;
+    width: 18rem;
+    
+}
+.card-image{
+    height: 33vh;
+}
+.movie-name{
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+}
+.movie-year{
+  display: flex;
+  justify-content: center;
+}

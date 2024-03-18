@@ -1,0 +1,19 @@
+
+body{
+    display: block !important;
+}
+.container01{
+    height: auto;
+    width: 20%;
+    background-color:lightgray ;
+  
+}
+/* h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.table{
+    display: block;
+}

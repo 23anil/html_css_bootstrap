@@ -1,0 +1,203 @@
+.row-01 {
+    height: 35px;
+    width: 90px;
+    margin:120px 0px 0px 160px;
+}
+
+.logo {
+    height: 35px;
+    width: 70px;
+    font-size: 18px;
+    font-weight: 650;
+    margin-top: 6px;
+}
+
+.navbar-hover:hover {
+    color: black;
+    border-bottom: 2px solid red;
+}
+
+.navbar-hover01 {
+    margin-left: 28px;  
+}
+
+.navbar-01 {
+    height: 38px;
+    width: 720px;
+    margin:-9px 0px 0px 85px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.badge-01 {
+    height: 30px;
+    width: 100px;
+    margin:4px 0px 0px 780px;
+    padding-top: 8px;
+}
+
+.row-02 {
+    margin-top: 10px;
+    height: 585px;
+    background-color: rgb(241, 252, 252);
+}
+
+.badge-02 {
+    margin-top: 18px;
+    margin-left: 600px;
+    color: rgba(141, 139, 139, 0.938);
+}
+
+.row-03 {
+    height: 548px;
+    width: 672px;
+    margin-left: 342px;
+}
+
+.card01 {
+
+    font-size: 25px;
+    margin: 15px 0px 0px -60px;
+    font-family: cursive;
+    color: rgba(104, 103, 103, 0.938);
+    ;
+}
+
+.menulist {
+    list-style: none;
+    margin-top: 26px;
+    margin-left: -312px;
+    color: rgb(82, 80, 80);
+}
+
+
+.list {
+    border-bottom: 2px solid;
+}
+
+.list:hover {
+    color: red;
+}
+
+.list01 {
+    height: 28px;
+    width: 57px;
+    margin: -10px 0px 0px 416px;
+
+}
+
+.list02 {
+    height: 28px;
+    width: 66px;
+    margin: -28px 0px 0px 495px;
+}
+
+.list03 {
+    height: 28px;
+    width: 45px;
+    margin: -28px 0px 0px 585px;
+}
+
+.list04 {
+    height: 28px;
+    width: 50px;
+    margin: -28px 0px 0px 652px;
+}
+
+.first-page {
+    text-decoration: none;
+    color: none;
+}
+
+.row04 {
+    height: 430px;
+    width: 897px;
+    background-color:  rgb(241, 252, 252);
+    margin: 105px 0px 0px -790px;
+    text-align: center;
+}
+
+.heading1 {
+    height: 19px;
+    width: 70px;
+    margin-left: 395px;
+}
+
+.heading2 {
+    height: 25px;
+    width: 100px;
+    margin: -3px 0px 0px 380px;
+
+}
+
+.head-line01 {
+    color: rgb(184, 198, 216);
+    font-size: 13px;
+}
+
+.head-line02 {
+    color: red;
+    font-size: 22px;
+}
+
+.imagediv01 {
+    height: 170px;
+    width: 205px;
+   
+    margin: 35px 0px 0px -384px;
+}
+
+.imagediv02 {
+    height: 170px;
+    width: 205px;
+   
+    margin: 35px 0px 0px 30px;
+}
+.imagediv03 {
+    height: 170px;
+    width: 205px;
+    
+    margin: 35px 0px 0px 30px;
+}
+.imagediv04 {
+    height: 170px;
+    width: 205px;
+  
+    margin: 23px 0px 0px 97px;
+}
+.imagediv05 {
+    height: 170px;
+    width: 205px;
+   
+    margin: 23px 0px 0px 29px;
+}
+.imagediv06 {
+    height: 170px;
+    width: 205px;
+   
+    margin: 23px 0px 0px 31px;
+}
+.image01{
+    height: 100%;
+    width: 100%;
+}
+.image02{
+    height: 100%;
+    width: 100%;
+}
+.image03{
+    height: 100%;
+    width: 100%;
+}
+.image04{
+    height: 100%;
+    width: 100%;
+}
+.image05{
+    height: 100%;
+    width: 100%;
+}
+.image06{
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,224 @@
+body {
+  overflow: auto;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-size: 13px;
+  color: rgb(51, 51, 51);
+  font-family: LKFuturaStd-Medium, Arial, sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+main {
+  margin: 0px auto;
+  min-width: 978px;
+  max-width: 1920px;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  height: 146px;
+}
+
+.header-1stline {
+  background: rgb(25, 34, 46);
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 5px 2.7vh !important;
+}
+
+.header-2ndline {
+  padding: 0px 25px;
+  margin: 4px 0px 0px;
+}
+
+.header-2ndline-sub {
+  display: flex;
+  width: 100%;
+  padding: 0px 5px;
+  align-items: center;
+  justify-content: space-between;
+  -webkit-box-pack: justify;
+  -webkit-box-align: center;
+}
+
+.imagecontainer {
+  display: flex;
+  flex-basis: 23.6%;
+  min-width: 300px;
+  max-height: 50px;
+  margin-right: 0px;
+  align-items: center;
+  justify-content: space-between;
+  -webkit-box-pack: justify;
+  -webkit-box-align: center;
+}
+
+.imagecontainer a {
+  display: inline-block;
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  color: inherit;
+}
+
+.header-image-01 {
+  display: block;
+  height: 57px;
+  margin-left: -10px;
+  margin-top: 3px;
+  cursor: pointer;
+}
+
+.header-image-02 {
+  display: block;
+  height: 33px;
+  width: 125px;
+  margin-top: 3px;
+  margin-right: -17px;
+}
+
+.search-box-div {
+  height: 100%;
+  width: 100%;
+  display: block;
+  max-width: 736px;
+  padding: 2px 0px 0px 20px;
+}
+
+.search-box {
+  position: relative;
+  width: 100%;
+}
+
+.search {
+  position: relative;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  padding: 4px 7px;
+  margin: 0px;
+  position: relative;
+  z-index: 1000;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 66, 0.5);
+  border-radius: 5px;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: lighter;
+  letter-spacing: -0.02em;
+  color: rgba(0, 0, 66, 0.5);
+}
+
+.header-2nd-line-images {
+  width: 414px;
+  display: flex;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-box-align: center;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.head-2nd-line-buttons {
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  -webkit-box-align: center;
+  cursor: pointer;
+  position: relative;
+  padding: 0px;
+  color: #000042;
+}
+
+.icon-images {
+  margin: 0px 13px 0px 2px;
+  filter: none;
+  font-size: 18px;
+}
+
+.header-3rd-line-div {
+  padding: 0px 25px;
+  margin: 4px 0px 0px;
+}
+
+.head-last-row {
+  height: 60px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  -webkit-box-align: center;
+  margin: 7px -25px 0px;
+  padding: 0px 25px;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  background-color: rgb(251, 249, 247);
+}
+
+.header-3rd-text {
+  display: flex;
+  flex-direction: row;
+}
+
+.head-3rd-buttons {
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  background-color: rgb(251, 249, 247);
+}
+
+.head-3rd-button-links {
+  height: 100%;
+  color: #000042;
+  line-height: 60px;
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  padding: 0px;
+  cursor: pointer;
+  white-space: nowrap;
+  margin: 0px 9px 0px 11px;
+  border-bottom: 3px solid rgb(251, 249, 247);
+  font-weight: 550;
+}
+
+.head-3rd-button-links:hover {
+  border-bottom: 3px solid #000042;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+}
+
+.head-3rd-row-left-side-buttons-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.head-3rd-row-left-side-buttons {
+  display: block;
+  height: 40px;
+  cursor: pointer;
+  margin: 0px 4px 0px 0px;
+  border-radius: 4px;
+  padding: 0px;
+}

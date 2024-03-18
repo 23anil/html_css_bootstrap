@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      WAP to count Capital or Small letters from a List/String/Array
+    </title>
+  </head>
+  <body>
+    <script>
+      //   string
+      let str = "Anil Kumar K R";
+      let Small_count = 0;
+      let Upper_count = 0;
+      for (let i = 0; i < str.length; i++) {
+        if (str[i] >= "A" && str[i] <= "Z") {
+          Upper_count++;
+        }
+        if (str[i] >= "a" && str[i] <= "z") {
+          Small_count++;
+        }
+      }
+      console.log("Upper_count", Upper_count);
+      console.log("Small_count", Small_count);
+
+      //   array
+      let UC = 0;
+      let LC = 0;
+      let array = ["a", "b", "c", "A", "Z", "R"];
+      for (let i = 0; i < array.length; i++) {
+        if (array[i] >= "A" && array[i] <= "Z") {
+          UC++;
+        }
+        if (array[i] >= "a" && array[i] <= "z") {
+          LC++;
+        }
+      }
+      console.log("UC",UC);
+      console.log("LC",LC);
+    </script>
+  </body>
+</html>

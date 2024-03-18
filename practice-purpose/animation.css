@@ -1,0 +1,101 @@
+.section01 {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(246, 220, 210);
+  position: absolute;
+  animation: example 20s linear 1s infinite alternate;
+}
+
+@keyframes example {
+  0% {
+    background-color: red;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  15% {
+    background-color: yellow;
+    margin-left: 350px;
+    margin-top: 0px;
+  }
+  30% {
+    background-color: blue;
+    margin-left: 500px;
+    margin-top: 0px;
+  }
+  45% {
+    background-color: blueviolet;
+    margin-left: 500px;
+    margin-top: 350px;
+  }
+  60% {
+    background-color: brown;
+    margin-left: 500px;
+    margin-top: 500px;
+  }
+  75% {
+    background-color: lightslategray;
+    margin-left: 350px;
+    margin-top: 500px;
+  }
+  90% {
+    background-color: olive;
+    margin-left: 0px;
+    margin-top: 500px;
+  }
+  100% {
+    background-color: skyblue;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+}
+
+/***************************************************/
+.section02 {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(210, 246, 216);
+  position: fixed;
+  margin-top: 50px;
+  animation: slides-rotates 10s ease-in-out 1s infinite alternate;
+
+  place-content: center;
+}
+
+@keyframes slides-rotates {
+  0% {
+    background-color: rgb(151, 231, 185);
+    /* transform: scaleX(10px); */
+    /* transform: translateX(0px); */
+    /* transform: matrix(400px 0px 0px 0px 0px 0px); */
+  }
+
+  25% {
+    background-image: repeating-conic-gradient(
+      lemonchiffon,
+      lightskyblue,
+      brown
+    );
+    transform: translateX(600px) rotateZ(270deg) scaleX(2);
+  }
+  50% {
+    background-image: radial-gradient(rgb(255, 0, 200), rgb(0, 255, 251), gray);
+    transform: translatey(400px) rotatey(180deg);
+    transition-duration: 10s;
+  }
+  75% {
+    background-image: repeating-linear-gradient(gray, red, blue);
+    border-radius: 50%;
+    transform: perspective(600px) rotatex(360deg);
+    transition-duration: 10s;
+  }
+  100% {
+    background-image: repeating-conic-gradient(
+      rgb(255, 208, 0),
+      gray,
+      rgb(0, 255, 110)
+    );
+    transform: perspective(600px) rotate(-550deg) scale(3);
+    transition-duration: 10s;
+    margin: 10% 0% 0% 15%;
+  }
+}

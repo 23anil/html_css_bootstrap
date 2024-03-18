@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form-Validation</title>
+    <script defer src="form-validation.js"></script>
+    <link rel="stylesheet" href="form-validation.css" />
+  </head>
+  <body>
+    <div>
+      <form name="formdata">
+        <div>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="enter user name"
+          />
+          <p id="emptyusername">please enter user name</p>
+          <p id="invalidusername">invalid user name</p>
+        </div>
+        <br />
+        <div>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="enter user password"
+          />
+          <p id="emptypassword">please enter user password</p>
+          <p id="invalidpassword">invalid user password</p>
+        </div>
+        <br />
+
+        <div>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="enter user email"
+          />
+          <p id="emptyemail">please enter user email</p>
+          <p id="invalidemail">invalid user email</p>
+        </div>
+        <br />
+
+        <div>
+          <input
+            type="number"
+            name="age"
+            id="age"
+            placeholder="enter user age"
+          />
+          <p id="emptyage">please enter user age</p>
+          <p id="invalideage">invalid user age</p>
+        </div>
+
+        <br />
+    
+        <div>
+          <label>courses</label>
+          <select name="courses" id="courses">
+            <option value="0">select</option>
+            <option value="1">java</option>
+            <option value="2">python</option>
+            <option value="3">c++</option>
+            <option value="4">devops</option>
+            </select>
+            <p id="emptycourses">please select option</p>
+        </div>
+        <br />
+          
+        <div>
+          <label>Gender</label>
+          <br />
+          <label>Male</label>
+          <input type="radio" name="gender" id="gender1" value="male" />
+          <br />
+          <label>Female</label>
+          <input type="radio" name="gender" id="gender2" value="female" />
+          <p id="emptyemptygender">please select options</p>
+        </div>
+        <br />
+        <div>
+          <label>subjects</label>
+          <br>
+          kannada:<input type="checkbox" name="subject1" id="subject1" value="kannada" />
+          <br>
+          english:<input type="checkbox" name="subject2" id="subject2" value="english" />
+          <br>
+          Hindi:<input type="checkbox" name="subject3" id="subject3" value="Hindi" />
+          <p id="emptysubjects">please select options</p>
+        </div> 
+
+        <div>
+          <input type="date" placeholder="fromdate" class="">
+        </div>
+        <br />
+        <button id="loginbtn">sunmit</button>
+      </form>
+    </div>
+  </body>
+</html>

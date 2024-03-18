@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sum Of Odd Even Numbers</title>
+</head>
+<body>
+    <script>
+        let number=10;
+        let OddSum=0;
+        let EvenSum=0;
+        for(let i=1;i<=number;i++)
+        {
+            if(i%2===0)
+            {
+                EvenSum+=i;
+            }
+            else{
+                OddSum+=i;
+            }
+        }
+        console.log("Even Sum-",EvenSum);
+        console.log("Odd Sum-",OddSum);
+    </script>
+</body>
+</html>

@@ -1,0 +1,183 @@
+.logo {
+    margin-left: 245px;
+    font-size: 18px;
+    font-weight: 650;
+    margin-top: 23px;
+}
+
+.navbar01 {
+    width: 465px;
+    margin-left: 18px;
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 7px;
+    margin-bottom: -5px;
+}
+
+.navbar-hover:hover {
+    color: rgb(39, 173, 250);
+    border-bottom: 2px solid rgb(39, 173, 250);
+}
+
+.row-01 {
+    margin-top: 90px;
+}
+
+.row-02 {
+    height: 585px;
+    background-color: rgb(241, 252, 252);
+}
+
+.badge-01 {
+    margin-top: 15px;
+    margin-left: 635px;
+    background-color: rgb(214, 247, 247);
+    color: rgb(39, 173, 250);
+}
+
+.row-03 {
+    height: 548px;
+    width: 672px;
+    margin-left: 342px;
+}
+
+.card01 {
+    margin: 7px 0px 0px 10px;
+    font-weight: 650;
+}
+
+.card02 {
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.row-04 {
+    margin-left: -772px;
+    margin-top: 100px;
+    height: 430px;
+    width: 853px;
+    background-color: rgb(243, 241, 241);
+}
+
+.col01 {
+    width: 393px;
+    height: 110px;
+    background-color: white;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.col02 {
+    height: 110px;
+    background-color: white;
+    margin: 10px 0px 0px 10px;
+    text-align: center;
+}
+
+.col03 {
+    height: 110px;
+    background-color: white;
+    margin: 10px 0px 0px 10px;
+    text-align: center;
+}
+
+.col04 {
+    width: 415px;
+    height: 290px;
+    text-align: center;
+    margin-left: -11px;
+}
+
+.col05 {
+    width: 424px;
+    height: 290px;
+    background-color: white;
+    text-align: center;
+}
+
+.heading {
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 4px;
+}
+
+.descreption {
+    margin-top: -6px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.imagediv-01 {
+    height: 37px;
+    width: 46px;
+    margin-left: 155px;
+    margin-top: 5px;
+    border: 1px solid lightgrey;
+    border-radius: 50%
+}
+
+.imagediv-02 {
+    height: 37px;
+    width: 46px;
+    margin-left: 65px;
+    margin-top: 5px;
+    border: 1px solid lightgrey;
+    border-radius: 50%;
+}
+
+.imagediv-03 {
+    height: 37px;
+    width: 46px;
+    margin-left: 69px;
+    margin-top: 5px;
+    border: 1px solid lightgrey;
+    border-radius: 50%;
+}
+
+.image01 {
+    padding: 8px 0px 0px 0px;
+    height: 20px;
+    width: 50%;
+}
+
+.image02 {
+    padding: 8px 0px 0px 0px;
+    height: 20px;
+    width: 50%;
+}
+
+.image03 {
+    padding: 8px 0px 0px 0px;
+    height: 20px;
+    width: 50%;
+}
+
+.image04 {
+    height: 100%;
+    width: 100%;
+}
+.lable-01{
+    height: 37px;
+    width: 195px;
+    margin: 21px 0px 0px 0px;
+    border-color: rgb(196, 214, 240);
+  
+}
+.lable-02{
+    height: 37px;
+    width: 195px;
+    margin: -36px 0px 0px 211px;
+    border-color: rgb(196, 214, 240);
+}
+.lable-03{
+    height: 37px;
+    width: 405px;
+    margin: 12px 0px 10px -2px;
+    border-color:  rgb(196, 214, 240);
+}
+.messageinput{
+    height: 90px;
+    width: 405px;
+    margin: 0px 0px 0px -2px;
+    border-color:   rgb(196, 214, 240);
+}
