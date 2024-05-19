@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fetch Api</title>
+  </head>
+  <body id="root">
+    <div id="test"></div>
+    <script>
+      let p1 = async () => {
+        let data = await fetch("https://jsonplaceholder.typicode.com/todos");
+        let resolved = await data.json();
+        let li = `<ul>`;
+        resolved.forEach((value) => {
+          li += `<li>${value.id}.  ${value.title}</li>`;
+        });
+        li += `</ul>`;
+        document.getElementById("test").innerHTML = li;
+      };
+      p1();
+
+      // let fruties=["a","b","c","a","b"];
+
+      // let copy=new Object();
+
+      // for(let i=0;i<fruties.length;i++){
+      // let c=0;
+      //     for(let j=0;j<fruties.length;j++)
+      //     if(fruties[i]===fruties[j])
+      //     {
+      //         c++;
+      //     }
+      // //   copy=`${fruties}:${c}`
+      // }
+      // // console.log(copy);
+
+      // let colors = ["red", "blue", "green", "orange"];
+
+      // let j = 0;
+      // setInterval(function () {
+      //   let colors01 = colors[j];
+      //   document.getElementById("root").style.backgroundColor = colors01;
+      //   if (j === colors.length - 1) {
+      //     j = -1;
+      //   }
+      //   j++;
+      // }, 1000);
+
+      // let random;
+      // setInterval(function(){
+      //     let random= Math.floor(Math.random()*(colors.length))
+      //    let colors01=colors[random];
+      // document.getElementById("root").style.backgroundColor=colors01;
+      // }
+      // ,1000)
+
+      // let colors = ["red", "blue", "green"];
+      // for (let i = 0; i < colors.length; i++) {
+      //     let str="";
+      //   for (let j = 0; j < colors[i].length; j++) {
+      //     if (j === 2) {
+      //       str += colors[i][j].toUpperCase();
+      //     }
+      //     else{
+      //       str+=colors[i][j];
+      //     }
+      //   }
+      //   colors[i]=str;
+      // }
+      // console.log(colors);
+
+      // let fruits=["apple","orange","banana","apple"]
+
+      // console.log(fruits.indexOf("apple"));
+
+      // let data=fruits.findIndex((val)=>{
+      //     return val==="apple";
+      // })
+
+      // console.log(data);
+    </script>
+  </body>
+</html>

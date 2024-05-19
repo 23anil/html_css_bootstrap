@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let AoB = [
+        { id: 1, Name: "Manju" },
+        { id: 2, Name: "Sunil" },
+        { id: 3, Name: "Anil" },
+        { id: 4, Name: "Raju" },
+        { id: 5, Name: "Pinky" },
+      ];
+
+      let SortName=AoB.sort((a,b)=>{
+        if(a.Name>b.Name)
+        {
+            return 0
+        }
+        else{
+            return-1
+        }
+      })
+      console.log("SortName",SortName);
+    </script>
+  </body>
+</html>
