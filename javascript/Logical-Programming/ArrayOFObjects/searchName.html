@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let AoB = [
+        { id: 1, Name: "Manju" },
+        { id: 2, Name: "Raju" },
+        { id: 3, Name: "Anil" },
+        { id: 4, Name: "Sunil" },
+        { id: 5, Name: "Pinky" },
+        { id: 6, Name: "Anil" },
+      ];
+
+      let FindName = AoB.filter((val, idx) => val.Name === "Anil");
+      // console.log("FindName",FindName[FindName.length-1].Name);
+
+      let finddata = AoB.find(
+        (val, i, arr) => String(val.Name).toLowerCase() === "sunil"
+      );
+      // console.log(finddata);
+
+      let requiredIndex = AoB.findIndex(
+        (val, i, arr) => String(val.Name).toLocaleLowerCase() === "sunil"
+      );
+      // console.log(AoB[requiredIndex + 1].Name);
+
+      let dup=AoB.filter((val,i,arr)=>(arr.indexOf(val.Name)!== i))
+
+      console.log(dup);
+
+    </script>
+  </body>
+</html>

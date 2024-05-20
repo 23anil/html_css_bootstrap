@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let data = [
+        [1, 2],
+        [19, 3],
+        [5, 4],
+        [8, 9],
+        [10, 7],
+        [2, 1],
+      ];
+
+      let dup = data
+        .flat(Infinity)
+        .filter((val, i, arr) => arr.indexOf(val) !== i);
+      console.log(dup);
+      // duplicates
+      let data01 = [1, 2, 5, 4, 3, 2, 3];
+      let dup01 = data01.filter((val, i, arr) => arr.indexOf(val) !== i);
+      console.log(dup01);
+
+      let str = ["Anil", "Raju","Anil", "Manju", "Ravi", "Anil","Raju"];
+
+      let dupstr = str.filter((val, i, arr) => arr.indexOf(val) !== i);
+      console.log(dupstr);
+    </script>
+  </body>
+</html>
